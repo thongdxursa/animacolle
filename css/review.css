@@ -1,0 +1,116 @@
+.cf {
+	zoom:1;/*for IE 5.5-7*/
+}
+.cf:after {/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+#main #review a:hover img {
+ Filter: Alpha(Opacity=80);
+ opacity: .80;
+}
+
+@media screen and (min-width: 768px){
+#main .sp{display:none}
+    .fixbtn{display: block}
+}
+@media (max-width: 767px) {
+#main .pc{display:none}
+    .fixbtn{display:none}
+}
+
+@media screen and (min-width: 768px) {
+#main #review .content{
+    width: 1000px;
+    margin: 0 auto;
+}
+#main #review .fixbtn{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 130px;
+    z-index:1;
+}
+#main #review .fixbtn ul li{
+    margin: 0 0 10px 0;
+}
+#main #review .pagetitle{
+ width: 100% ;
+ background: url("../images/voice/bg_fv.png") center top no-repeat;
+ padding: 0;
+ height: 515px;
+ text-align: center;
+ margin: 0 auto;
+}
+#main #review .pagetitle h1{
+    padding: 70px 0 0 0;
+}
+#main #review .pagetitle p{
+    margin: 40px 0 0 0;
+    font-size: 16px;
+}
+#main #review .navi{
+    width: 1000px;
+    margin: 58px auto 50px auto;
+    padding: 0 0 100px 0;
+    background: url("../images/voice/line_cat.png") center bottom repeat-x;
+}
+#main #review .navi ul li{
+    float: left;
+    width: 292px;
+    margin: 0 0 0 60px;
+}
+#main #review .navi ul li:first-child{
+    margin: 0;
+}
+#main #review .navi ul li p.text{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0 25px 0;
+}
+#main #review .reviewbox{
+    margin: 74px 0 0 0 ;   
+}
+#main #review .reviewbox h2{
+    margin: 74px 0 70px 0;
+}
+#main #review .reviewbox .btn{
+    width: 1000px;
+    margin: 58px auto 50px auto;
+    padding: 0 0 100px 0;
+    background: url("../images/voice/line_cat.png") center bottom repeat-x;
+    text-align: center;
+}
+#main #review .reviewbox .info{
+    margin: 70px 0 70px 0;
+    padding: 70px 0 70px 0;
+    background: url("../images/voice/bg_info.png") center repeat;
+}
+#main #review .reviewbox .like h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+}
+#main #review .reviewbox .like h3 span{
+    border-bottom: 2px solid #000;
+    padding: 0 0 5px 0;
+}
+#main #review .reviewbox .like h4{
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+    margin: 77px 0 0 0;
+}
+#main #review .reviewbox .like h4 span{
+    border-bottom: 2px solid #000;
+    padding: 0 0 5px 0;
+}
+#main #review .reviewbox .like .content p{
+    margin: 50px 0 0 0;
+}
+}
+

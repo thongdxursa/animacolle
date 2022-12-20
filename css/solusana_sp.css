@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px) {
+    /* CSS Document */
+    #main .lp_solusana_sp{
+        background: #ffffff;
+        line-height:0.5;
+        font-size:1.7em;
+    }
+    #main .lp_solusana_sp img{
+        width: 100%;
+    }
+    #main .lp_solusana_sp .content{
+        margin: 0 auto;
+    }
+    #main .lp_solusana_sp .qa{
+        margin: 0 auto;
+        width: 90%;
+        line-height:1.5;
+    }
+}
+body,html{
+    overflow-x: hidden;
+}
+#main .lp_solusana_sp p.bnr{
+    margin: 5% 0;
+}

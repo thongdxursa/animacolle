@@ -1,0 +1,90 @@
+.cf {
+	zoom:1;/*for IE 5.5-7*/
+}
+.cf:after {/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+#main .solusana a:hover img {
+ Filter: Alpha(Opacity=80);
+ opacity: .80;
+}
+
+@media screen and (min-width: 768px){
+#main .sp{display:none}
+    .fixbtn{display: block}
+}
+@media (max-width: 767px) {
+#main .pc{display:none}
+    .fixbtn{display:none}
+}
+.solusana{
+  max-width: 1300px;
+  margin: 0 auto 5% auto;  
+}
+@media screen and (min-width: 768px) {
+
+        .lp_solusana_if {
+            position: relative;
+            width: 100%;
+        }
+
+        .qa .qa_cont{
+            width: 1000px;
+            margin: 6.4615385% auto 0;
+            text-align: left;
+        }
+        .qa .qa_cont dl{
+            margin: 0 0 2.7692308%;
+            padding: 0 6.5384615% 2.6153846%;
+            border-bottom: 1px solid #7b7565;
+            box-sizing: border-box;
+            font-size: 18px;
+            line-height: 1.55;
+        }
+        .qa .qa_cont dt{
+            position: relative;
+            font-weight: bold;
+            color: #4f4b3d;
+        }
+        .qa .qa_cont dt::before{
+            content: "Q.";
+            position: absolute;
+            top: 0;
+            left: -50px;
+            font-size: 18px;
+            line-height: 1.55;
+            font-weight: bold;
+            color: #4f4b3d;
+        }
+        .qa .qa_cont dd{
+            margin-top: 1.5384615%;
+            margin-left: 0;
+            color: #b47025;
+        }
+        .qa .tel{
+            margin-top: 102px;
+            text-align: center;
+        }
+}
+#main .solusana p.bnr{
+    margin: 25px auto 20px;
+    width: 94.668%;
+    max-width: 710px;
+}
+@media screen and (min-width: 768px) {
+    #main .solusana p.bnr{
+        margin: 5% auto;
+        max-width: 900px;
+        width: 90%;
+    }
+}
+@media screen and (min-width:1000px) {
+    #main .solusana p.bnr{
+        width: 100%;
+    }
+}

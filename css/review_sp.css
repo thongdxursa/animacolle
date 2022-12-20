@@ -1,0 +1,80 @@
+@media screen and (max-width: 767px) {
+    /* CSS Document */
+    #main #review img{
+        width: 100%;
+    }
+    #main #review .content{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #main #review .pagetitle h1{
+        padding:0;
+    }
+
+    #main #review .navi{
+        margin: 10% auto 0 auto;
+        padding: 0 0 60px 0;
+        background: url("../images/voice/sp/line_cat.png") center bottom repeat-x;
+        background-size: 320px 30px;
+    }
+    #main #review .navi ul{
+        width: 66%;
+        margin: 0 auto;
+    }
+    #main #review .navi ul li{
+        margin: 5% 0 15% 0;
+    }
+
+    #main #review .navi ul li p.text{
+        font-weight: bold;
+        font-size: 20px;
+        margin: 20px 0 25px 0;
+        text-align: center;
+    }
+
+    #main #review .reviewbox{
+        margin: 10% 0 0 0;
+    }
+    #main #review .reviewbox h2{
+        margin: 20px 0 20px 0;
+        text-align: center;
+    }
+    #main #review .reviewbox .btn{
+        margin: 5% auto 10% auto;
+        width: 86%;
+        text-align: center;
+        padding: 0 0 100px 0;
+        background: url("../images/voice/sp/line_cat.png") center bottom repeat-x;
+        background-size: 320px 30px;
+    }
+    #main #review .reviewbox .info{
+        margin: 0 0 10% 0;
+        padding: 10% 0 10% 0;
+    }
+    #main #review .reviewbox .like h3{
+        font-weight: bold;
+        font-size: 18px;
+        color: #000;
+        text-align: center;
+    }
+    #main #review .reviewbox .like h3 span{
+        border-bottom: 2px solid #000;
+        padding: 0 0 5px 0;
+    }
+    #main #review .reviewbox .like h4{
+        font-weight: bold;
+        font-size: 18px;
+        color: #000;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+    #main #review .reviewbox .like h4 span{
+        border-bottom: 2px solid #000;
+        padding: 0 0 5px 0;
+    }
+    #main #review .reviewbox .like .content p{
+        margin: 5% 0 0 0;
+    }
+}
+
