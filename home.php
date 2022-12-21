@@ -1,35 +1,176 @@
 <?php get_header(); ?>
-<div id="topSlideShow">
- <ul>
-  <!--			<li><a href="https://www.rakuten.ne.jp/gold/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide12.jpg" width="100%" alt="animacolleシリーズ待望の新商品 コーナーステップ新登場です！ 2019.11.7(Thu) 楽天市場で販売開始"></a></li>-->
-  <!--      <li><a href="http://www.interpets.jp/public/index.php" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide14.jpg" width="100%" alt="「第10回インターペット／人とペットの豊かな暮らしフェア」に出展いたします。2020年3月26日（木）～ 29日（日）10:00～17:00、青梅展示棟A・Bホール（東京ビッグサイト別棟）ペットと遊びに来てね！"></a></li>-->
-	 
-	<!-- <li><a href="https://animacolle.com/tie_up/"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/banner_0909.jpg" width="100%" alt="animacolle×ガリレオタイアップキャンペーン"></a></li>-->
-	 <li><a href="https://animacolle.com/catbed/"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/catbed_soldout.png" width="100%" alt="2022年　数量限定キャットベッド発売完売"></a></li>
-	 
-	 
-	 <li><a href="https://www.rakuten.ne.jp/gold/animacolle/"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide25.jpg" width="100%" alt="h耐荷重は最大なんと30kg！ロングステップ新発売しました！"></a></li>
-	 
-  
-	 <li><a href="<?php echo esc_url(home('/')); ?>solusana_sale/"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide22.jpg" width="100%" alt="大好評のペットサプリメント solusana 公式サイト販売がはじまりました。＜公式限定＞お得な「まとめ買いプラン」も登場"></a></li>
-  <!--<li><a href="<?php echo esc_url(home('/')); ?>solusana60/"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide20.jpg" width="100%" alt="animacolleからペットサプリメント「ソラサナ」が誕生します　大事な家族いつまでも元気に　solusana　2021年5月下旬より楽天市場animacolle公式ショップにて販売開始"></a></li>-->
-  <!-- <li><a href="<?php echo esc_url(home('/')); ?>catbed"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide24.jpg" width="100%" alt="おかげさまで完売いたしました！ animacolle キャットベッド。お客さまの声から生まれた待望のキャットベッド限定発売がきまりました。クリスマスのご褒美に、低反発マットレスにリバーシブルのカバー、公式サイト限定発売！"></a></li>-->
-	 
-	 <li><a href="https://www.rakuten.ne.jp/gold/animacolle/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide19.jpg" width="100%" alt="定番キャットステップにいよいよ［国産天然無垢材を贅沢に使用］ウッドステップが新登場　2021年3月下旬楽天市場で販売開始"></a></li>
-	 
-  <li><a href="https://www.rakuten.ne.jp/gold/animacolle/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide17.jpg" width="100%" alt="棚板のみの販売もご準備!取り換えてイメージチェンジ　定番ワイズステップにキュートなパステルカラーが3種類新登場　2021.11月上旬楽天市場で販売開始"></a></li>
-  <li><a href="https://www.rakuten.ne.jp/gold/animacolle/" target="_blank" rel="noopener"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide16.jpg" width="100%" alt="人気No.1のハンモックがリニューアル!#まったりくつろぐ猫ちゃんに癒されませんか？2020.9.4(FRI)楽天市場で販売開始"></a></li>
-  <li><a href="<?php echo esc_url(home('/')); ?>product"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide07.jpg" width="100%" alt="Catroad+の特徴 今ある空間に、新しいワクワクを。ねこちゃんの「もっと遊びたい」という気持ちを叶えるキャットステップが生まれました。"></a></li>
-  <li><a href="<?php echo esc_url(home('/')); ?>product_list"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide08.jpg" width="100%" alt="製品一覧 product"></a></li>
-  <li><a href="<?php echo esc_url(home('/')); ?>product/setup"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide09.jpg" width="100%" alt="取付方法 setup 画像や動画でくわしい取付け方をご覧いただけます。"></a></li>
-  <li><a href="<?php echo esc_url(home('/')); ?>product_case"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/topSlide10.jpg" width="100%" alt="事例紹介 case study"></a></li>
-  <!--
-			<li><a href="https://www.rakuten.ne.jp/gold/animacolle/" target="_blank"><img src="https://animacolle.com/wordpress/wp-content/uploads/2019/08/190809-16_MV-1.jpg" alt="animacolleに新商品が登場します。キャットハウス/3color 2019年8月26日（月）楽天市場で販売開始" width="100%"></a></li>
-			<li><a href="https://www.rakuten.co.jp/animacolle/" target="_blank"><img src="https://animacolle.com/wordpress/wp-content/uploads/2019/05/topSlide_bridge.jpg" width="100%" alt="キャットブリッジ新登場！"></a></li>
--->
- </ul>
-</div>
 
+<!-- carousel top -->
+<div id="topCarousel" class="carousel slide topCarousel" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#topCarousel" data-slide-to="1"></li>
+    <!-- <li data-target="#topCarousel" data-slide-to="2"></li> -->
+  </ol>
+
+  <div class="carousel-inner">
+    <!-- item 1 -->
+    <div class="item active">
+      <div class="item_content">
+        <div class="content_img">
+          <div class="img_1">
+            <picture>
+              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
+            </picture>
+            <div class="logo_btn logo_btn_cat_step">
+              <div class="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
+              </div>
+              <div class="link">
+                <a href="#" class="link cat_step">キャットステップ</a>
+              </div>
+            </div>
+          </div>
+          <div class="img_2">
+            <picture>
+              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
+            </picture>
+            <div class="logo_btn logo_btn_supplement">
+              <div class="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
+              </div>
+              <div class="link">
+                <a href="#" class=" supplement">サプリメント</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content_txt">
+          <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
+          <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
+             その多くは⾷事と運動に関係する事が多くあります。<br>
+             psd error </p>
+        </div>
+      </div>
+    </div>
+   <!-- item 2 -->
+   <div class="item">
+      <div class="item_content">
+        <div class="content_img">
+          <div class="img_1">
+            <picture>
+              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
+            </picture>
+            <div class="logo_btn logo_btn_cat_step">
+              <div class="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
+              </div>
+              <div class="link">
+                <a href="#" class="link cat_step">キャットステップ</a>
+              </div>
+            </div>
+          </div>
+          <div class="img_2">
+            <picture>
+              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
+            </picture>
+            <div class="logo_btn logo_btn_supplement">
+              <div class="img">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
+              </div>
+              <div class="link">
+                <a href="#" class=" supplement">サプリメント</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content_txt">
+          <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
+          <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
+             その多くは⾷事と運動に関係する事が多くあります。<br>
+             psd error </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#topCarousel" data-slide="prev">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/left.png">
+  </a>
+  <a class="right carousel-control" href="#topCarousel" data-slide="next">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/right.png">
+  </a>
+</div>
+<!-- end carousel top -->
+<!-- tab panel -->
+
+<div class="tab_panel">
+  <div class="tab_content">
+    <ul class="nav nav-tabs">
+      <li class="active">
+        <a data-toggle="tab" href="#menu1" class="title_tab_item title_tab_item_1 ">
+          キャットステップ 
+          <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
+        </a>
+      </li>
+      <li>
+        <a data-toggle="tab" href="#menu2" class="title_tab_item title_tab_item_2">
+          サプリメント
+          <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"/>
+        </a>
+      </li>
+    </ul>
+  
+    <div class="tab-content">
+      <div id="menu1" class="tab-pane fade in active tab_content_1">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png"/>
+        <div class="tt">
+          <h2>キャットステップカテゴリー</h2>
+          <p>CATEGORY</p>
+        </div>
+        <div class="list_category">
+          <a href="<?php echo esc_url(home('/')); ?>product">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab1.png"/>
+            Catroad+の特徴
+          </a>
+          <a href="<?php echo esc_url(home('/')); ?>product_list">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab2.png"/>
+            製品⼀覧
+          </a>
+          <a href="<?php echo esc_url(home('/')); ?>product/setup">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab3.png"/>
+            取付⽅法
+          </a>
+          <a href="<?php echo esc_url(home('/')); ?>product_case">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab4.png"/>
+            事例紹介
+          </a>
+          <a href="<?php echo esc_url(home('/')); ?>voice">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab5.png"/>
+            モニター様の声
+          </a>
+        </div>
+      </div>
+      <div id="menu2" class="tab-pane fade tab_content_2">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"/>
+        <div class="tt">
+          <h2>キャットステップカテゴリー</h2>
+          <p>CATEGORY</p>
+        </div>
+        <div class="list_category">
+          <a href="<?php echo esc_url(home('/')); ?>solusana60">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab1.png"/>
+            ペット用サプリメント solusana
+          </a>
+          <a href="<?php echo esc_url(home('/')); ?>solusana_sale">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab2.png"/>
+            solusana販売ページ
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end tab panel -->
 <style type="text/css">
  @media screen and (min-width: 1150px) {
   .content_review {
@@ -53,9 +194,7 @@
    width: 92%;
   }
  }
-https://youtu.be/fg3U7wJQMvU
 </style>
-<p class="content_review"><a href="<?php echo esc_url(home('/')); ?>voice/"><img src="<?php echo get_template_directory_uri(); ?>/images/bnr_review.png"></a></p>
 
 
 <p class="readComment">
