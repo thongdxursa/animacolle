@@ -153,8 +153,239 @@
 .tab_content .list_category a img{
     margin-bottom: 15px;
 }
+/*css product story panel*/
+.product_story_panel{
+    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/長方形 6 のコピー 2.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 1493px;
+    width: 100%;
+    padding-top: 140px;
+}
+.product_story_content{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+ .ps_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+ .ps_title .en{
+    font-size: 16px;
+    font-weight: 400;
+    color: #cb6619;
+    letter-spacing: 0.1em;
+}
+ .ps_title .ja{
+    font-size: 36px;
+    font-weight: 400;
+    color: #32231b;
+    letter-spacing: 0.05em;
+}
+.product_story_content .ps_video{
+    text-align: center;
+}
+.product_story_content .ps_video iframe{
+    width: 100%;
+    max-width: 920px;
+    height: 517px;
+}
+.product_story_content .desc{
+    padding: 50px 11.57%;
+}
+.product_story_content .desc .txt{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #32231b;
+    text-align: center;
+}
+.product_story_content .desc .btn_more{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.product_story_content .desc .btn_more a{
+    width: 200px;
+    height: 70px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.05em;
+    background-color: #585141;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/*css pick up items*/
+.pick_up_item_panel{
+    padding: 130px 0px;
+    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/pickup_bg.png');
+    width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.pick_up_item_content{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+.pick_up_item_content .ps_title{
+    margin-bottom: 50px !important;
+}
+.pick_up_item_content .desc{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #32231b;
+    letter-spacing: 0.05em;
+}
+.pick_up_item_content .list_items_product{
+    padding-top: 80px;
+}
+.pick_up_item_content .list_items_product .flexBox{
+    display: flex !important;
+    gap: 40px;
+}
+.pick_up_item_content .list_items_product .flexBox article{
+    max-width: 520px !important;
+    margin: 0px !important;
+}
 
+/*popular item css*/
+.popular_item_panel{
+    padding: 130px 0px;
+    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/popular_bg.png');
+    width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.popular_item_content{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+.popular_item_content .ps_title{
+    margin-bottom: 50px !important;
+}
+.popular_item_content .desc{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #32231b;
+    letter-spacing: 0.05em;
+}
+.popular_item_content .list_items_product{
+    padding-top: 80px;
+}
+.popular_item_content .list_items_product .flexBox{
+    display: flex !important;
+    gap: 40px;
+}
+.popular_item_content .list_items_product .flexBox article{
+    max-width: 333px !important;
+    margin: 0px !important;
+    background: transparent;
+}
+.popular_item_content .list_items_product .flexBox article img{
+    max-height: 275px;
+}
+.popular_item_content .list_items_product .flexBox article .product_price, .popular_item_content .list_items_product .flexBox article .title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #32231b;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.btnMoreBox .btn_more{
+    width: 200px;
+    height: 70px;
+    margin: 75px auto 0;
+    background: #575143;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.btnMoreBox .btn_more:hover{
+    background: #cb6619;
+    text-decoration: none;
+}
+/*css for beginner*/
+
+.for_beginner_panel{
+    padding: 130px 0px;
+    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/beginner_bg.png');
+    width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.for_beginner_content{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+.for_beginner_content .ps_title{
+    margin-bottom: 50px !important;
+}
+.for_beginner_content .desc{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #32231b;
+    letter-spacing: 0.05em;
+}
+/*css news*/
+
+.news_panel{
+    padding: 130px 0px;
+    width: 100%;
+}
+.news_content{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+.news_content .ps_title{
+    margin-bottom: 50px !important;
+}
+.news_content .desc{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #32231b;
+    letter-spacing: 0.05em;
+}
+.news_content .list_items_news{
+    padding-top: 80px;
+}
+.news_content .list_items_news .flexBox{
+    display: flex !important;
+    gap: 40px;
+}
+.news_content .list_items_news .flexBox article{
+    max-width: 333px !important;
+    margin: 0px !important;
+    background: transparent;
+}
+.news_content .list_items_news .flexBox article img{
+    max-height: 275px;
+}
+.news_content .list_items_news .link_post_item{
+    font-size: 16px;
+    font-weight: 400;
+    color: #32231b;
+    letter-spacing: 0.05em;
+    text-align: left;
+    display: contents;
+}
+.news_content .list_items_news .link_post_item .title{
+    margin-bottom: 40px;
+}
+.news_content .list_items_news .specBox:hover .link_post_item, .news_content .list_items_news .specBox:hover .content, .news_content .list_items_news .specBox:hover a{
+    color: #cb6619 !important;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 991px)  {
     /*css tab panel*/
@@ -180,6 +411,68 @@
     }
     .tab_content .list_category{
         flex-wrap: wrap;
+    }
+    /*css product story*/
+    .product_story_panel{
+        height: 1374px;
+        background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/長方形 6 のコピー 2_xs.png');
+    }
+    .product_story_content{
+        padding: 0px 5.3%;
+    }
+    .product_story_content .desc{
+        padding: 50px 0px;
+    }
+    .product_story_content .ps_video iframe{
+        max-width: 668px;
+        height: 431px;
+    }
+    /*css pickup item*/
+    .pick_up_item_content{
+        padding: 0px 5.3%;
+    }
+    .pick_up_item_content .list_items_product .imageText2{
+        max-width: unset !important;
+    }
+    .pick_up_item_content .list_items_product .flexBox article{
+        max-width: 320px !important;
+    }
+    .pick_up_item_content .list_items_product .flexBox{
+        gap: 30px;
+    }
+    /*css popular item*/
+    .popular_item_content{
+        padding: 0px 5.3%;
+    }
+    .popular_item_content .list_items_product .imageText2{
+        max-width: unset !important;
+    }
+    .popular_item_content .list_items_product .flexBox article img{
+        max-height: 170px;
+    }
+    .popular_item_content .list_items_product .flexBox article{
+        max-width: 205px !important;
+    }
+    .popular_item_content .list_items_product .flexBox{
+        gap: 25px;
+        justify-content: center;
+    }
+    /*css news*/
+    .news_content{
+        padding: 0px 5.3%;
+    }
+    .news_content .list_items_news .imageText2{
+        max-width: unset !important;
+    }
+    .news_content .list_items_news .flexBox article img{
+        max-height: 170px;
+    }
+    .news_content .list_items_news .flexBox article{
+        max-width: 205px !important;
+    }
+    .news_content .list_items_news .flexBox{
+        gap: 25px;
+        justify-content: center;
     }
 }
 @media only screen and (max-width: 1080px)  {
@@ -223,3 +516,69 @@
 
     
 }   
+
+
+/*css footer*/
+footer{
+    background: #fff !important;
+}
+footer hr{
+    display: none !important;
+}
+.footer_content{
+    max-width: 1080px !important;
+    padding-top: 135px;
+}
+.addressbox{
+    width: 40% !important;
+    border-right: 1px solid #c8c4b7;
+    margin-top: 0px !important;
+    min-height: 178px;
+}
+.shop_logo img{
+    width: 100% !important;
+    max-width: 348px;
+    max-height: 46px;
+    margin-bottom: 40px;
+}
+.footer_logo{
+    margin-bottom: 35px;
+}
+.navigation{
+    border-right: 1px solid #c8c4b7;
+    width: 28%;
+    min-height: 180px;
+    padding: 0px 6.5%;
+}
+.navigation .tt {
+    font-size: 16px;
+    font-weight: 400;
+    color: #32231b !important;
+    letter-spacing: 0.05em;
+}
+.navigation .list_nav{
+    display: flex;
+}
+.navigation .list_nav ul{
+    padding-left: 20px;
+}
+.navigation .list_nav ul, .navigation .list_nav ul a, .navigation_2 a, .footer_2 aside{
+    font-size: 14px;
+    font-weight: 400;
+    color: #32231b !important;
+    letter-spacing: 0.05em;
+}
+.footer_1{
+    display: flex;
+}
+.navigation_2{
+    width: 12%;
+    padding-left: 6.5%;
+}
+.footer_2{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_2 .sns{
+    margin: 15px 0px 0px !important;
+}
