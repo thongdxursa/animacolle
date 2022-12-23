@@ -171,48 +171,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <p class="bnr_review"><a href="<?php echo esc_url(home('/')); ?>voice/">モニター様の声はこちら</a></p>
     </div>
 
-	<header>
-		<h1><a href="<?php echo esc_url(home('/')); ?>" title="キャットロードプラスのTOPページへ" class="shop_logo"><img src="<?php echo get_template_directory_uri(); ?>/images/animacolle_Logo.png" alt="animacolle"><span>～アニマコレ～</span></a></h1>
-		<nav>
-			<ul>
-				<li data-pageNow="now"><a href="<?php echo esc_url(home('/')); ?>">ホーム</a></li>
-				
-				
-				<!--ガリレオ<i><a href="<?php echo esc_url(home('/')); ?>tie-up">映画タイアップ企画</a></li>-->
-				
-				<li><img src="<?php echo get_template_directory_uri(); ?>/images/menuIconSubMenu.png"><a href="javascript:;">catroad+製品情報</a>
-					<ul>
-						<li><a href="<?php echo esc_url(home('/')); ?>product">Catroad+の特徴</a></li>
-						<li><a href="<?php echo esc_url(home('/')); ?>product_list">製品一覧</a></li>
-						<li><a href="<?php echo esc_url(home('/')); ?>product/setup">取付方法</a></li>
-						<li><a href="<?php echo esc_url(home('/')); ?>product_case">事例紹介</a></li>
-					</ul>
-				</li>
-                <li><img src="https://animacolle.com/wordpress/wp-content/themes/animacolle_theme/images/menuIconSubMenu.png"><a href="javascript:;">solusana製品情報</a>
-					<ul class="menu_solusana">
-						<li><a href="<?php echo esc_url(home('/')); ?>solusana60/">ペット用サプリメント solusana</a></li>
-                        <li><a href="<?php echo esc_url(home('/')); ?>solusana_sale/">solusana販売ページ</a></li>
-					</ul>
-				</li>
-				<li><a href="<?php echo esc_url(home('/')); ?>voice">モニター様の声</a></li>
-				<!--<li><a href="<?php echo esc_url(home('/')); ?>mailmagazine">メルマガ登録</a></li>-->
-				<li><a href="<?php echo esc_url(home('/')); ?>contact">お問い合わせ</a></li>
-				<li><a href="<?php echo esc_url(home('/')); ?>aboutus">運営会社</a></li>
-			</ul>
-			<div class="sns">
-        <a href="https://www.instagram.com/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconInstagram.png" alt="Instragram"></a>
-        <a href="https://www.rakuten.co.jp/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconRakuten.png" alt="Rakutenはこちら"></a>
-        <a href="https://www.amazon.co.jp/dp/B07NWNJDWL/ref=psdc_2439831051_t1_B07NWNMPZQ" target="_blank" class="sns_amazon"><img src="<?php echo get_template_directory_uri(); ?>/images/iconAmazon.png" alt="amazonはこちら"></a>
-        <a href="https://paypaymall.yahoo.co.jp/store/animacolle/top/" target="_blank" class="sns_paypay"><img src="<?php echo get_template_directory_uri(); ?>/images/iconPaypay.png" alt="paypayはこちら"></a>
-        <?php /*
-				<a href="https://twitter.com/animacolle" target="_blank"><img src="https://animacolle.com/wordpress/wp-content/uploads/2019/04/iconTwitter.png" alt="twitter"></a>
-				<a href="https://m.facebook.com/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconFacebook.png" alt="facebook"></a>
-				*/ ?>
-				
-			</div>
-		</nav>
-	</header>
+<header>
+  <div class="header_content" id="header_content">
+    <div class="sns">
+      <a href="https://www.instagram.com/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram" /></a>
+      <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line" /></a>
+      <a href="https://twitter.com/animacolle" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Twitter.png" alt="twitter" /></a>
+    </div>
+    <div class="header_logo">
+      <a href="<?php echo esc_url(home('/')); ?>" title="キャットロードプラスのTOPページへ" class="shop_logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logo_header.png" alt="animacolle" />
+      </a>
+    </div>
+    <nav class="header_nav">
+      <ul class="list_item_nav">
+        <li>
+          <img class="menuIconSubMenu" src="<?php echo get_template_directory_uri(); ?>/images/menuIconSubMenu_2.png" /><a href="javascript:;">キャットステップ</a>
+          <ul>
+            <li><a href="<?php echo esc_url(home('/')); ?>product">Catroad+の特徴</a></li>
+            <li><a href="<?php echo esc_url(home('/')); ?>product_list">製品一覧</a></li>
+            <li><a href="<?php echo esc_url(home('/')); ?>product/setup">取付方法</a></li>
+            <li><a href="<?php echo esc_url(home('/')); ?>product_case">事例紹介</a></li>
+          </ul>
+        </li>
+        <li>
+          <img class="menuIconSubMenu" src="<?php echo get_template_directory_uri(); ?>/images/menuIconSubMenu_2.png"  /><a href="javascript:;">サプリメント</a>
+          <ul class="menu_solusana">
+            <li><a href="<?php echo esc_url(home('/')); ?>solusana60/">ペット用サプリメント solusana</a></li>
+            <li><a href="<?php echo esc_url(home('/')); ?>solusana_sale/">solusana販売ページ</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class='fas fa-search'></i></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="header_link_2">
+    <a href="#">キャットステップ</a>
+    <a href="#">サプリメント</a>
+  </div>
+</header>
 
-<?php if (!is_page("news_list") && !is_page("catbed")): ?>
-	<h1><img src="<?php echo get_template_directory_uri(); ?>/images/CatroadPlus_Logo.png" alt="大切な猫ちゃんのために。簡単に取付けられる「キャットロード プラス」"></h1>
-<?php endif; ?>

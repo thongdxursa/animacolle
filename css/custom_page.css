@@ -458,7 +458,7 @@
         justify-content: center;
     }
     /*css news*/
-    .news_content{
+    .news_content, .for_beginner_content{
         padding: 0px 5.3%;
     }
     .news_content .list_items_news .imageText2{
@@ -488,14 +488,14 @@
         background: #fff;
     }
     .topCarousel .logo_btn_supplement{
-        width: 41% !important;
+        width: 40% !important;
     }
     .topCarousel .logo_btn_cat_step{
-        width: 48% !important;
+        width: 37% !important;
     }
     .logo_btn_cat_step{
-        bottom: 10px !important;
-        right: 24px !important;
+        bottom: 18% !important;
+        right: 6% !important;
     }
     .topCarousel .logo_btn .link a{
         height: 50px;
@@ -504,8 +504,8 @@
         padding: 0px;
     }
     .logo_btn_supplement{
-        top: 14px !important;
-        left: 26px !important;
+        top: 6%!important;
+        left: 8% !important;
         bottom: auto !important;
         right: auto !important;
     }
@@ -513,14 +513,14 @@
         padding-left: 5.7%;
         padding-right: 5.7%;
     }
-
-    
 }   
 
 
 /*css footer*/
 footer{
-    background: #fff !important;
+    background:  url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/footer_bg.png')  center no-repeat;
+    min-height: 992px;
+    padding: 0px !important;
 }
 footer hr{
     display: none !important;
@@ -581,4 +581,241 @@ footer hr{
 }
 .footer_2 .sns{
     margin: 15px 0px 0px !important;
+}
+div.sns a.sns_paypay{
+    width: 189px !important;
+}
+div.sns a.sns_amazon{
+    width: 105px !important;
+}
+.sns_sp{
+    display: none;
+}
+@media only screen and (max-width: 991px)  {
+    footer{
+        background:  url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/footer_bg_sp.png')  center no-repeat;
+        min-height: 1960px;
+    }
+    .footer_1{
+        display: block;
+    }
+    .addressbox, .navigation, .navigation_2{
+        width: 100% !important;
+        max-width: 530px;
+        margin: 0px auto;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .shop_logo img{
+        max-width: 374px;
+        max-height: 78px;
+    }
+    footer .footer_logo img{
+        width: 100% !important;
+        max-width: 204px;
+        max-height: 55px;
+    }
+    footer address > span{
+        font-size: 26px !important;
+    }
+    .navigation{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .navigation .list_nav{
+        justify-content: center;
+        gap: 60px;
+    }
+    .navigation .tt{
+        font-size: 28px !important;
+        margin-bottom: 45px;
+    }
+    .navigation .list_nav li{
+        margin-bottom: 35px;
+    }
+    .navigation .list_nav li a{
+        font-size: 26px !important;
+    }
+    .navigation .list_nav li .minus{
+        display: none;
+    }
+    .navigation_2 li{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .navigation_2 li a{
+        font-size: 26px !important;
+        font-weight: 600;
+    }
+    .footer_2{
+        justify-content: center;
+    }
+    .footer_2 aside{
+        font-size: 22px !important;
+    }
+    .sns_sp{
+        display: block;
+        max-width: 530px;
+        margin: 0px auto;
+    }
+    .sns_sp a{
+        display: block;
+        margin: 0 7px;
+        width: 51px;
+        height: 51px;
+    }
+    .sns_sp a img{
+        width: 100%;
+    }
+    .sns_sp .gr_1, .sns_sp .gr_2{
+        display: flex;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+    }   
+    .sns_sp .gr_2{
+        gap: 30px !important;
+        margin: 50px 0px 110px 0px;
+    }
+    .sns_sp .gr_2 .sns_paypay{
+        width: 273px !important;
+    }
+    .sns_sp .gr_2 .sns_amazon{
+        width: 151px !important;
+    }
+    .navigation .list_nav ul{
+        padding: 0px;
+    }
+}
+
+/*css header*/
+header hr{
+    display: none !important;
+}
+header{
+    height: auto !important;
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 154px;
+}
+.header_content nav{
+    margin: 0px !important;
+}
+.header_logo{
+    min-width: 33%;
+}
+.shop_logo{
+    justify-content: end;
+}
+.shop_logo img{
+    max-width: 260px !important;
+    max-height: 105px !important;
+    margin: 0px !important;
+}
+.header_content .header_nav .menuIconSubMenu{
+    width: 15px;
+    height: 8px;
+    top: 25px;
+}
+.header_content .header_nav a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #32231b;
+}
+.header_content .header_nav a .fa-search{
+    width: 17px;
+    height: 17px;
+    color: #32231b;
+}
+.header_link_2{
+    display: none;
+    height: 95px;
+    background: #fff;
+}
+@media only screen and (max-width: 1166px)  {
+    header{
+        width: 100%  !important;
+    }
+    .header_content{
+        justify-content: center;
+        position: relative;
+    }
+    .header_content .sns{
+        display: none !important;
+    }
+    .shop_logo{
+        justify-content: center;
+    }
+    .header_content #menuBtn{
+        right: 40px;
+        left: auto !important;
+        width: 70px;
+        height: 44px;
+        top: 45px !important;
+        background: none !important;
+    }
+    .header_content #menuBtn img{
+        width: 100%;
+    }
+    .header_content .header_nav .list_item_nav{
+        width: auto !important;
+        left: -60px !important;
+    }
+    .header_link_2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header_link_2 a{
+        font-size: 32px;
+        font-weight: 600;
+        color: #30241c;
+        letter-spacing: 0.05em;
+    }
+}
+@media only screen and (max-width: 660px)  {
+    .shop_logo img{
+        max-width: 170px !important;
+    }
+    .header_content #menuBtn{
+        width: 30px;
+    }
+    .header_link_2 a{
+        font-size: 18px !important;
+    }
+    .ps_title {
+        margin-bottom: 15px;
+    }
+    .ps_title .ja{
+        font-size: 24px;
+    }
+    .product_story_panel, .pick_up_item_panel, .popular_item_panel, .for_beginner_panel , .news_panel{
+        padding: 30px 0px;
+    }
+    .footer_content{
+        padding: 50px 5.3% 0px 5.3%;
+    }
+    footer{
+        display: flex !important;
+    }
+    .sns_sp .gr_2{
+        margin: 50px 0px !important;
+    }
+    .shop_logo{
+        margin-bottom: 50px;
+    }
+    .navigation, .navigation_2{
+        padding: 0px;
+    }
+    .navigation .list_nav{
+        justify-content: space-between;
+        gap: 20px;
+    }
 }
