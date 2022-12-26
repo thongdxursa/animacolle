@@ -31,7 +31,7 @@
     font-weight: 400;
     color: #fff;
     margin-top: 20px;
-    background:  url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/arrow_right.png') right center no-repeat;
+    background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/arrow_right.png') right center no-repeat;
 }
 .topCarousel .carousel-indicators li{
     border: none !important;
@@ -57,13 +57,16 @@
     font-size: 40px;
     font-weight: 400;
     color: #32231b;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .topCarousel .item_content .content_txt p{
     font-size: 16px;
     font-weight: 400;
     color: #32231b;
     margin-top: 25px;
-    line-height: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 2em;
+    letter-spacing: 0.05em;
 }
 
 /*css tab panel*/
@@ -88,6 +91,8 @@
     justify-content: center;
     align-items: center;
     height: 95px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
 }
 .tab_content  .title_tab_item img{
     width: 100%;
@@ -103,7 +108,10 @@
     border: 1px solid #32231b;
     border-bottom: transparent;
     background: #f3f1eb;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
 }
+
 .tab_content .tab_content_1, .tab_content_2{
     padding-top: 80px;
 }
@@ -118,11 +126,13 @@
     font-weight: 400;
     color: #cb6619;
     letter-spacing: 0.100em;
+    font-family: 'Times New Roman', Times, serif;
 }
 .tab_content .tab_content_1 .tt h2, .tab_content_2 .tt h2{
     font-size: 32px;
     font-weight: 400;
     color: #32231b;
+    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.050em;
 }
 .tab_content .list_category{
@@ -148,6 +158,7 @@
     font-weight: 400;
     color: #32231b;
     letter-spacing: 0.050em;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 .tab_content .list_category a img{
@@ -155,7 +166,7 @@
 }
 /*css product story panel*/
 .product_story_panel{
-    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/長方形 6 のコピー 2.png');
+    background-image: url('http://13.230.65.74/animacolle//wp-content/themes/animacolle_theme/images/topPage/product_story_bg.png');
     background-position-x: center;
     background-repeat: no-repeat;
     height: 1493px;
@@ -176,6 +187,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #cb6619;
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 0.1em;
 }
  .ps_title .ja{
@@ -183,6 +195,7 @@
     font-weight: 400;
     color: #32231b;
     letter-spacing: 0.05em;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .product_story_content .ps_video{
     text-align: center;
@@ -198,8 +211,10 @@
 .product_story_content .desc .txt{
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0.05em;
+    letter-spacing: 0;
+    line-height: 43px;
     color: #32231b;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
 }
 .product_story_content .desc .btn_more{
@@ -215,6 +230,7 @@
     font-weight: 400;
     color: #fff;
     letter-spacing: 0.05em;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #585141;
     border-radius: 5px;
     display: flex;
@@ -225,7 +241,7 @@
 /*css pick up items*/
 .pick_up_item_panel{
     padding: 130px 0px;
-    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/pickup_bg.png');
+    background-image: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/pickup_bg.png');
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -241,7 +257,9 @@
     font-size: 16px;
     font-weight: 400;
     color:  #32231b;
+    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.05em;
+    line-height: 2em;
 }
 .pick_up_item_content .list_items_product{
     padding-top: 80px;
@@ -258,7 +276,7 @@
 /*popular item css*/
 .popular_item_panel{
     padding: 130px 0px;
-    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/popular_bg.png');
+    background-image: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/popular_bg.png');
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -274,7 +292,9 @@
     font-size: 16px;
     font-weight: 400;
     color:  #32231b;
+    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.05em;
+    line-height: 2em;
 }
 .popular_item_content .list_items_product{
     padding-top: 80px;
@@ -291,11 +311,12 @@
 .popular_item_content .list_items_product .flexBox article img{
     max-height: 275px;
 }
-.popular_item_content .list_items_product .flexBox article .product_price, .popular_item_content .list_items_product .flexBox article .title{
+.list_items_product .flexBox article .product_price, .list_items_product .flexBox article .title{
     font-size: 16px;
     font-weight: 400;
     color: #32231b;
     letter-spacing: 0.05em;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: left;
 }
 .btnMoreBox .btn_more{
@@ -309,6 +330,7 @@
     align-items: center;
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
     color: #fff;
 }
 .btnMoreBox .btn_more:hover{
@@ -319,7 +341,7 @@
 
 .for_beginner_panel{
     padding: 130px 0px;
-    background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/beginner_bg.png');
+    background-image: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/beginner_bg.png');
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -335,7 +357,9 @@
     font-size: 16px;
     font-weight: 400;
     color:  #32231b;
+    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.05em;
+    line-height: 2em;
 }
 /*css news*/
 
@@ -354,7 +378,9 @@
     font-size: 16px;
     font-weight: 400;
     color:  #32231b;
+    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.05em;
+    line-height: 2em;
 }
 .news_content .list_items_news{
     padding-top: 80px;
@@ -377,6 +403,7 @@
     color: #32231b;
     letter-spacing: 0.05em;
     text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
     display: contents;
 }
 .news_content .list_items_news .link_post_item .title{
@@ -397,7 +424,7 @@
         gap: 14px 18px;
     }
     .tab_content .list_category a{
-        width: 145px;
+        width: calc((100% - 30px) / 2) ;
     }
     .tab_content .tab_content_1, .tab_content .tab_content_2{
         padding-left: 8%;
@@ -415,7 +442,7 @@
     /*css product story*/
     .product_story_panel{
         height: 1374px;
-        background-image: url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/topPage/長方形 6 のコピー 2_xs.png');
+        background: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/product_story_bg_xs.png')  center / 100% 100% no-repeat;;
     }
     .product_story_content{
         padding: 0px 5.3%;
@@ -427,6 +454,9 @@
         max-width: 668px;
         height: 431px;
     }
+    .product_story_content .desc .txt{
+        text-align: left;
+    }
     /*css pickup item*/
     .pick_up_item_content{
         padding: 0px 5.3%;
@@ -436,6 +466,7 @@
     }
     .pick_up_item_content .list_items_product .flexBox article{
         max-width: 320px !important;
+        width: calc((100% - 30px) / 2);
     }
     .pick_up_item_content .list_items_product .flexBox{
         gap: 30px;
@@ -449,9 +480,11 @@
     }
     .popular_item_content .list_items_product .flexBox article img{
         max-height: 170px;
+        height: 100% !important;
     }
     .popular_item_content .list_items_product .flexBox article{
         max-width: 205px !important;
+        width: calc((100% - 50px) / 3);
     }
     .popular_item_content .list_items_product .flexBox{
         gap: 25px;
@@ -465,10 +498,12 @@
         max-width: unset !important;
     }
     .news_content .list_items_news .flexBox article img{
-        max-height: 170px;
+        max-height: 100px;
+        height: 100% !important;
     }
     .news_content .list_items_news .flexBox article{
         max-width: 205px !important;
+        width: calc((100% - 50px) / 3);
     }
     .news_content .list_items_news .flexBox{
         gap: 25px;
@@ -518,7 +553,7 @@
 
 /*css footer*/
 footer{
-    background:  url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/footer_bg.png')  center no-repeat;
+    background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/footer_bg.png')  center no-repeat;
     min-height: 992px;
     padding: 0px !important;
 }
@@ -539,7 +574,6 @@ footer hr{
     width: 100% !important;
     max-width: 348px;
     max-height: 46px;
-    margin-bottom: 40px;
 }
 .footer_logo{
     margin-bottom: 35px;
@@ -593,7 +627,7 @@ div.sns a.sns_amazon{
 }
 @media only screen and (max-width: 991px)  {
     footer{
-        background:  url('http://localhost/animacolle/wp-content/themes/animacolle_theme/images/footer_bg_sp.png')  center no-repeat;
+        background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/footer_bg_sp.png')  center no-repeat;
         min-height: 1960px;
     }
     .footer_1{
@@ -713,6 +747,7 @@ header{
 }
 .shop_logo{
     justify-content: end;
+    margin-bottom: 40px;
 }
 .shop_logo img{
     max-width: 260px !important;
@@ -777,6 +812,7 @@ header{
         font-size: 32px;
         font-weight: 600;
         color: #30241c;
+        font-family: 'Noto Sans JP', sans-serif;
         letter-spacing: 0.05em;
     }
 }
@@ -791,13 +827,13 @@ header{
         font-size: 18px !important;
     }
     .ps_title {
-        margin-bottom: 15px;
+        margin-bottom: 55px;
     }
     .ps_title .ja{
         font-size: 24px;
     }
     .product_story_panel, .pick_up_item_panel, .popular_item_panel, .for_beginner_panel , .news_panel{
-        padding: 30px 0px;
+        /* padding: 30px 0px; */
     }
     .footer_content{
         padding: 50px 5.3% 0px 5.3%;

@@ -46,7 +46,8 @@
           <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
           <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
              その多くは⾷事と運動に関係する事が多くあります。<br>
-             psd error </p>
+             愛猫・愛犬の健康をみまもり、長いライフスタイルを幸せなものにしませんか。
+          </p>
         </div>
       </div>
     </div>
@@ -87,7 +88,8 @@
           <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
           <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
              その多くは⾷事と運動に関係する事が多くあります。<br>
-             psd error </p>
+             愛猫・愛犬の健康をみまもり、長いライフスタイルを幸せなものにしませんか。
+          </p>
         </div>
       </div>
     </div>
@@ -328,31 +330,12 @@
             $wp_query2 = new WP_Query( $args2 );
           ?>
           <?php if ($wp_query2->have_posts() ) : while ($wp_query2->have_posts()) : $wp_query2->the_post(); $slug_name = $post->post_name; ?>
-              <article class="specBox"><span id="<?php echo $slug_name; ?>"></span>
-                <img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/>
-                <h3><?php the_title() ; ?></h3>
-                <?php remove_filter ('the_content', 'wpautop'); ?>
-                      <div class="specBox_footer" data-mh="specBox_footer">
-                        <?php if(get_post_meta($post->ID,'link_rakuten',true) || get_post_meta($post->ID,'link_amazon',true) || get_post_meta($post->ID,'link_paypay',true)): ?>
-                        <ul class="ecLink">
-                          <li class="ecLink_item ecLink_item__rakuten"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="instagram"></a></li>
-                          <?php if(get_post_meta($post->ID,'link_rakuten',true)): ?>
-                          <li class="ecLink_item ecLink_item__rakuten"><a href="<?php echo $cfs->get('link_rakuten'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconRakuten.png" alt="Rakutenでの購入"></a></li>
-                          <?php endif; ?>
-                          <?php if(get_post_meta($post->ID,'link_amazon',true)): ?>
-                          <li class="ecLink_item ecLink_item__amazon"><a href="<?php echo $cfs->get('link_amazon'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconAmazon.png" alt="amazonでの購入"></a></li>
-                          <?php endif; ?>
-                          <?php if(get_post_meta($post->ID,'link_paypay',true)): ?>
-                          <li class="ecLink_item ecLink_item__paypay"><a href="<?php echo $cfs->get('link_paypay'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconPaypay.png" alt="Paypayでの購入"></a></li>
-                          <?php endif; ?>
-                        </ul>
-                          <?php endif; ?>
-                        <?php if(get_post_meta($post->ID,'product_note',true)): ?>
-                          <p class="productNote"><?php echo $cfs->get('product_note'); ?></p>
-                        <?php endif; ?>
-                      </div>
-                    </article>
-              <?php
+          <article class="specBox"><span id="<?php echo $slug_name; ?>"></span>
+            <img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/>
+            <h3 class="title"><?php the_title() ; ?></h3>
+            <div class="product_price"><?php echo $cfs->get('product_price'); ?>円(税込)</div>
+          </article>
+          <?php
             endwhile;
             endif;
             wp_reset_postdata();
