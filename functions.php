@@ -245,3 +245,12 @@ function intec_track_post_views($post_id)
 add_action('wp_head', 'intec_track_post_views');
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
+function max_title_length( $title ) {
+  $max = 43;
+  if( mb_strlen( $title ) > $max ) {
+    return substr( $title, 0, $max ). "...";
+  } else {
+    return $title;
+  }
+}
+add_filter( 'the_title', 'max_title_length');

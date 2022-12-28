@@ -1,3 +1,19 @@
+.is_show_xs{
+    display: none;
+}
+.is_show_md{
+    display: block;
+}
+#fixed_bnr .bnr_review a {
+    background: url("http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/floating_bnr.png") left 0 no-repeat !important;
+}
+#fixed_bnr .bnr_review a:hover {
+    background: url("http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/floating_bnr_hover.png") left 0 no-repeat !important;
+}
+.topCarousel{
+    max-width: 1400px;
+    margin: 0px auto;
+}
 .topCarousel .item_content{
     position: relative;
 }
@@ -16,6 +32,7 @@
     position: absolute;
     bottom: 40px;
     right: 32.5%;
+    max-width: 240px;
 }
 .topCarousel .logo_btn .link{
     background-color: #585141;
@@ -23,7 +40,7 @@
     border-radius: 7px;
 }
 .topCarousel .logo_btn .link a{
-    height: 72px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +96,7 @@
 }
 .tab_content li{
     width: 50%;
-    
+    max-height: 95px;
 }
 .tab_content  .title_tab_item{
     font-size: 16px;
@@ -90,7 +107,7 @@
     gap: 45px;
     justify-content: center;
     align-items: center;
-    height: 95px;
+    height: 74px;
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
 }
@@ -108,6 +125,7 @@
     border: 1px solid #32231b;
     border-bottom: transparent;
     background: #f3f1eb;
+    color: #32231b !important;
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
 }
@@ -130,7 +148,7 @@
 }
 .tab_content .tab_content_1 .tt h2, .tab_content_2 .tt h2{
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
     color: #32231b;
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.050em;
@@ -149,13 +167,13 @@
     width: 200px;
     height: 120px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     border: 1px solid #585141;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #32231b;
     letter-spacing: 0.050em;
     font-family: 'Times New Roman', Times, serif;
@@ -169,9 +187,9 @@
     background-image: url('http://13.230.65.74/animacolle//wp-content/themes/animacolle_theme/images/topPage/product_story_bg.png');
     background-position-x: center;
     background-repeat: no-repeat;
-    height: 1493px;
+    height: 1353px;
     width: 100%;
-    padding-top: 140px;
+    padding-top: 135px;
 }
 .product_story_content{
     max-width: 1080px;
@@ -192,7 +210,7 @@
 }
  .ps_title .ja{
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 600;
     color: #32231b;
     letter-spacing: 0.05em;
     font-family: 'Noto Sans JP', sans-serif;
@@ -210,7 +228,7 @@
 }
 .product_story_content .desc .txt{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0;
     line-height: 43px;
     color: #32231b;
@@ -240,7 +258,7 @@
 
 /*css pick up items*/
 .pick_up_item_panel{
-    padding: 130px 0px;
+    padding: 130px 0px 103px;
     background-image: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/pickup_bg.png');
     width: 100%;
     background-position-x: center;
@@ -272,7 +290,26 @@
     max-width: 520px !important;
     margin: 0px !important;
 }
-
+.list_items_product section.imageText2 article h3 a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #32231b;
+    letter-spacing: 0.05em;
+}   
+.list_items_product section.imageText2 article h3 a:hover{
+    color: #cb6619;
+    text-decoration: none;
+}
+section.imageText2 article h3{
+    margin-top: 35px !important;
+}
+section.imageText2 article.specBox .ecLink_item.ecLink_item__paypay{
+    width: 142px !important;
+}
+section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
+    width: 104px !important;
+}
 /*popular item css*/
 .popular_item_panel{
     padding: 130px 0px;
@@ -306,6 +343,8 @@
 .popular_item_content .list_items_product .flexBox article{
     max-width: 333px !important;
     margin: 0px !important;
+}
+.flexBox article{
     background: transparent;
 }
 .popular_item_content .list_items_product .flexBox article img{
@@ -396,6 +435,7 @@
 }
 .news_content .list_items_news .flexBox article img{
     max-height: 275px;
+    margin-bottom: 20px;
 }
 .news_content .list_items_news .link_post_item{
     font-size: 16px;
@@ -406,15 +446,26 @@
     font-family: 'Noto Sans JP', sans-serif;
     display: contents;
 }
+.news_content .list_items_news .link_post_item time{ 
+    font-size: 13px;
+    font-weight: 500;
+    color: #908f8f;
+}
 .news_content .list_items_news .link_post_item .title{
     margin-bottom: 40px;
 }
-.news_content .list_items_news .specBox:hover .link_post_item, .news_content .list_items_news .specBox:hover .content, .news_content .list_items_news .specBox:hover a{
+.news_content .list_items_news .specBox:hover .link_post_item, .news_content .list_items_news .specBox:hover .content, .news_content .list_items_news .specBox:hover a, .news_content .list_items_news .specBox:hover time{
     color: #cb6619 !important;
     text-decoration: none;
 }
 
 @media only screen and (max-width: 991px)  {
+    .is_show_xs{
+        display: block;
+    }
+    .is_show_md{
+        display: none;
+    }
     /*css tab panel*/
     .tab_content .title_tab_item{
         display: block;
@@ -422,22 +473,36 @@
     }
     .tab_content .list_category{
         gap: 14px 18px;
+        padding-left: 3.7%;
+        padding-right: 3.7%;
+        gap: 25px 30px;
     }
     .tab_content .list_category a{
         width: calc((100% - 30px) / 2) ;
+        max-width: 292px;
+        height: 174px;
+        font-size: 30px;
     }
     .tab_content .tab_content_1, .tab_content .tab_content_2{
-        padding-left: 8%;
-        padding-right: 8%;
+        padding-left: 5.3%;
+        padding-right: 5.3%;
     }
     .tab_content .tab_content_1 .tt h2, .tab_content_2 .tt h2{
-        font-size: 15px;
+        font-size: 36px;
     }
     .tab_content .tab_content_1 .tt p, .tab_content_2 .tt p{
-        font-size: 13px;
+        font-size: 19.2px;
     }
     .tab_content .list_category{
         flex-wrap: wrap;
+    }
+    .tab_panel .tab_content{
+        margin-top: 50px;
+        margin-bottom: 120px;   
+    }
+    .ps_title .en{
+        font-size: 19.2px;
+        text-align: right;
     }
     /*css product story*/
     .product_story_panel{
@@ -456,6 +521,13 @@
     }
     .product_story_content .desc .txt{
         text-align: left;
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .product_story_content .desc .btn_more a{
+        width: 40%;
+        height: 105px;
+        font-size: 28.8px;
     }
     /*css pickup item*/
     .pick_up_item_content{
@@ -471,7 +543,27 @@
     .pick_up_item_content .list_items_product .flexBox{
         gap: 30px;
     }
+    .pick_up_item_content .list_items_product{
+        padding-top: 65px;
+    }
+    .list_items_product section.imageText2 article h3 a{
+        font-size: 26px;
+    }
+    section.imageText2 article.specBox .ecLink_item.ecLink_item__paypay{
+        width: 114px !important;
+    }
+    .pick_up_item_content .desc, .popular_item_content .desc, .for_beginner_content .desc, .news_content .desc{
+        font-size: 26px;
+    }
+    section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
+        width: 84px !important;
+    }
     /*css popular item*/
+    .popular_item_panel{
+        min-height: 1099px;
+        background-size: cover;
+        padding-bottom: 0;
+    }
     .popular_item_content{
         padding: 0px 5.3%;
     }
@@ -490,6 +582,17 @@
         gap: 25px;
         justify-content: center;
     }
+    .list_items_product .flexBox article .product_price, .list_items_product .flexBox article .title{
+        font-size: 26px;
+    }
+    .popular_item_content .list_items_product{
+        padding-top: 60px;
+    }
+    .list_items_product .btnMoreBox .btn_more{
+        width: 40%;
+        height: 105px;
+        font-size: 27.65px;
+    }
     /*css news*/
     .news_content, .for_beginner_content{
         padding: 0px 5.3%;
@@ -498,7 +601,7 @@
         max-width: unset !important;
     }
     .news_content .list_items_news .flexBox article img{
-        max-height: 100px;
+        max-height: 170px;
         height: 100% !important;
     }
     .news_content .list_items_news .flexBox article{
@@ -508,6 +611,14 @@
     .news_content .list_items_news .flexBox{
         gap: 25px;
         justify-content: center;
+    }
+    .news_content .list_items_news{
+        padding-top: 60px;
+    }
+    .news_content .btnMoreBox .btn_more{
+        width: 40%;
+        height: 105px;
+        font-size: 26px;
     }
 }
 @media only screen and (max-width: 1080px)  {
@@ -523,20 +634,27 @@
         background: #fff;
     }
     .topCarousel .logo_btn_supplement{
-        width: 40% !important;
+        width: 100% !important;
+        max-width: 288px;
     }
     .topCarousel .logo_btn_cat_step{
-        width: 37% !important;
+        width: 100%;
+        max-width: 312px;
     }
     .logo_btn_cat_step{
-        bottom: 18% !important;
-        right: 6% !important;
+        bottom: 30px !important;
+        right: 5.3% !important;
     }
     .topCarousel .logo_btn .link a{
-        height: 50px;
-        margin-top: 10px;
-        justify-content: unset;
+        height: 100%;
         padding: 0px;
+        font-size: 26px;
+    }
+    .logo_btn_cat_step .link{
+        height: 91px !important;
+    }
+    .logo_btn_supplement .link{
+        height: 84px !important;
     }
     .logo_btn_supplement{
         top: 6%!important;
@@ -570,7 +688,7 @@ footer hr{
     margin-top: 0px !important;
     min-height: 178px;
 }
-.shop_logo img{
+.footer_1 .shop_logo img{
     width: 100% !important;
     max-width: 348px;
     max-height: 46px;
@@ -578,6 +696,7 @@ footer hr{
 .footer_logo{
     margin-bottom: 35px;
 }
+
 .navigation{
     border-right: 1px solid #c8c4b7;
     width: 28%;
@@ -601,17 +720,31 @@ footer hr{
     font-weight: 400;
     color: #32231b !important;
     letter-spacing: 0.05em;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 30px;
 }
 .footer_1{
     display: flex;
 }
+.footer_1 .shop_logo{
+    display: block !important;
+    margin-bottom: 50px;
+}
+.footer_1 .addressbox span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #32231b;
+    letter-spacing: 0.05em;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 .navigation_2{
-    width: 12%;
+    width: 17%;
     padding-left: 6.5%;
 }
 .footer_2{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
 }
 .footer_2 .sns{
     margin: 15px 0px 0px !important;
@@ -627,7 +760,7 @@ div.sns a.sns_amazon{
 }
 @media only screen and (max-width: 991px)  {
     footer{
-        background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/footer_bg_sp.png')  center no-repeat;
+        background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/footer_bg_sp.png')  center / 100% 100% no-repeat;
         min-height: 1960px;
     }
     .footer_1{
@@ -644,8 +777,8 @@ div.sns a.sns_amazon{
         align-items: center;
     }
     .shop_logo img{
-        max-width: 374px;
-        max-height: 78px;
+        max-width: 374px !important;
+        max-height: 78px !important;
     }
     footer .footer_logo img{
         width: 100% !important;
@@ -659,9 +792,13 @@ div.sns a.sns_amazon{
         margin-top: 100px;
         margin-bottom: 30px;
     }
+    .navigation_2{
+        padding: 0px;
+    }
     .navigation .list_nav{
-        justify-content: center;
-        gap: 60px;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 70vw !important;
     }
     .navigation .tt{
         font-size: 28px !important;
@@ -669,6 +806,7 @@ div.sns a.sns_amazon{
     }
     .navigation .list_nav li{
         margin-bottom: 35px;
+        overflow-wrap: break-word;
     }
     .navigation .list_nav li a{
         font-size: 26px !important;
@@ -747,11 +885,11 @@ header{
 }
 .shop_logo{
     justify-content: end;
-    margin-bottom: 40px;
 }
 .shop_logo img{
-    max-width: 260px !important;
-    max-height: 105px !important;
+    width: 100% !important;
+    max-width: 260px;
+    max-height: 105px;
     margin: 0px !important;
 }
 .header_content .header_nav .menuIconSubMenu{
@@ -761,7 +899,7 @@ header{
 }
 .header_content .header_nav a{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #32231b;
 }
 .header_content .header_nav a .fa-search{
@@ -816,12 +954,13 @@ header{
         letter-spacing: 0.05em;
     }
 }
-@media only screen and (max-width: 660px)  {
-    .shop_logo img{
-        max-width: 170px !important;
+@media only screen and (max-width: 749px)  {
+    .header_content{
+        height: 137px;
     }
     .header_content #menuBtn{
-        width: 30px;
+        width: 35px;
+        right: 25px;
     }
     .header_link_2 a{
         font-size: 18px !important;
@@ -835,6 +974,9 @@ header{
     .product_story_panel, .pick_up_item_panel, .popular_item_panel, .for_beginner_panel , .news_panel{
         /* padding: 30px 0px; */
     }
+    .product_story_panel{
+        height: 1120px;
+    }
     .footer_content{
         padding: 50px 5.3% 0px 5.3%;
     }
@@ -845,7 +987,7 @@ header{
         margin: 50px 0px !important;
     }
     .shop_logo{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
     }
     .navigation, .navigation_2{
         padding: 0px;
@@ -853,5 +995,81 @@ header{
     .navigation .list_nav{
         justify-content: space-between;
         gap: 20px;
+    }
+    .tab_content .title_tab_item{
+        height: auto;
+    }
+    .tab_content .list_category{
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .tab_content .list_category a{
+        font-size: 20px;
+    }
+    .tab_content .list_category a img{
+        width: 100%;
+    }
+    .tab_content .tab_content_1 .tt h2, .tab_content_2 .tt h2, .pick_up_item_content .desc, .popular_item_content .desc, .for_beginner_content .desc, .news_content .desc{
+        font-size: 16px;
+    }
+    .tab_content .tab_content_1 .tt p, .tab_content_2 .tt p{
+        font-size: 14px;
+    }
+    .product_story_content .desc .txt{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .product_story_content .desc .btn_more a{
+        height: 70px;
+        font-size: 16px;
+    }
+    .pick_up_item_panel{
+        background-size: cover;
+        padding-top: 130px;
+    }
+    .pick_up_item_content .list_items_product .flexBox article{
+        width: 100%;
+    }
+    .pick_up_item_content .list_items_product .flexBox{
+        gap: 0;
+        justify-content: center;
+    }
+    .popular_item_content .list_items_product .flexBox article, .news_content .list_items_news .flexBox article{
+        width: 100%;
+        max-width: unset !important;
+    }
+    .popular_item_content .list_items_product .flexBox article img, .news_content .list_items_news .flexBox article img{
+        max-height: 250px;
+    }
+    .list_items_product .flexBox article .product_price, .list_items_product .flexBox article .title{
+        font-size: 16px;
+    }
+    .list_items_product .btnMoreBox .btn_more, .news_content .btnMoreBox .btn_more{
+        height: 70px;
+        font-size: 16px;
+    }
+    .for_beginner_panel{
+        background-size: cover;
+    }
+    .header_content .header_nav .list_item_nav{
+        left: -200px !important;
+    }
+    .sns_sp .gr_1, .sns_sp .gr_2{
+        gap: 10px;
+    }
+    .sns_sp a img{
+        max-height: 51px;
+    }
+    .topCarousel .logo_btn .link a{
+        font-size: 16px ;
+    }
+    .topCarousel .logo_btn .link{
+        height: 60px !important;
+    }
+    .topCarousel .logo_btn_supplement{
+        max-width: 160px;
+    }
+    .topCarousel .logo_btn_cat_step{
+        max-width: 200px;
     }
 }

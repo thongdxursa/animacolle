@@ -42,11 +42,19 @@
             </div>
           </div>
         </div>
-        <div class="content_txt">
+        <div class="content_txt is_show_md">
           <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
           <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
              その多くは⾷事と運動に関係する事が多くあります。<br>
              愛猫・愛犬の健康をみまもり、長いライフスタイルを幸せなものにしませんか。
+          </p>
+        </div>
+        <div class="content_txt is_show_xs">
+          <h2>愛猫・愛⽝を<br>「外と内」からみまもる</h2>
+          <p>飼い主は<br>「愛猫・愛⽝にできるだけのことをしてあげたい」と<br>
+          考えるものですが、その多くは⾷事と運動に<br>
+          関係する事が多くあります。<br>
+             愛猫・愛犬の健康をみまもり、長いライフスタイルを<br>幸せなものにしませんか。
           </p>
         </div>
       </div>
@@ -84,11 +92,19 @@
             </div>
           </div>
         </div>
-        <div class="content_txt">
+        <div class="content_txt is_show_md">
           <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
           <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
              その多くは⾷事と運動に関係する事が多くあります。<br>
              愛猫・愛犬の健康をみまもり、長いライフスタイルを幸せなものにしませんか。
+          </p>
+        </div>
+        <div class="content_txt is_show_xs">
+          <h2>愛猫・愛⽝を<br>「外と内」からみまもる</h2>
+          <p>飼い主は<br>「愛猫・愛⽝にできるだけのことをしてあげたい」と<br>
+          考えるものですが、その多くは⾷事と運動に<br>
+          関係する事が多くあります。<br>
+             愛猫・愛犬の健康をみまもり、長いライフスタイルを<br>幸せなものにしませんか。
           </p>
         </div>
       </div>
@@ -131,23 +147,38 @@
         </div>
         <div class="list_category">
           <a href="<?php echo esc_url(home('/')); ?>product">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab1.png"/>
+            <picture>
+              <source media="(max-width:991px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/tab1_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab1.png"/>
+            </picture>
             Catroad+の特徴
           </a>
           <a href="<?php echo esc_url(home('/')); ?>product_list">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab2.png"/>
+            <picture>
+              <source media="(max-width:991px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/tab2_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab2.png"/>
+            </picture>
             製品⼀覧
           </a>
           <a href="<?php echo esc_url(home('/')); ?>product/setup">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab3.png"/>
+            <picture>
+              <source media="(max-width:991px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/tab3_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab3.png"/>
+            </picture>
             取付⽅法
           </a>
           <a href="<?php echo esc_url(home('/')); ?>product_case">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab4.png"/>
+            <picture>
+              <source media="(max-width:991px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/tab4_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab4.png"/>
+            </picture>
             事例紹介
           </a>
           <a href="<?php echo esc_url(home('/')); ?>voice">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab5.png"/>
+            <picture>
+              <source media="(max-width:991px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/tab5_xs.png">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/tab5.png"/>
+            </picture>
             モニター様の声
           </a>
         </div>
@@ -184,9 +215,15 @@
       <iframe src="https://www.youtube.com/embed/zGTsRzOKpkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div class="desc">
-      <p class="txt">
-        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキス
-        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキス
+      <p class="txt is_show_md">
+        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
+        テキストが入ります。テキストが入ります。テキストが入ります。<br>
+        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+      </p>
+      <p class="txt is_show_xs" >
+        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+        テキストが入ります。テキストが入ります。テキストが入ります。
+        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
       </p>
       <div class="btn_more">
         <a href="#">MORE</a>
@@ -200,12 +237,17 @@
 <div class="pick_up_item_panel">
   <div class="pick_up_item_content">
     <div class="ps_title">
-      <h2 class="ja">製品ストーリー</h2>
-      <p class="en">ITEM STORY</p>
+      <h2 class="ja">ピックアップ商品</h2>
+      <p class="en">PICK UP ITEMS</p>
     </div>
-    <div class="desc">
+    <div class="desc is_show_md">
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
       テキストが入ります。テキストが入ります。テキストが入ります。 <br>
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+    </div>
+    <div class="desc is_show_xs">
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+      テキストが入ります。テキストが入ります。テキストが入ります。 
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
     </div>
     <div class="list_items_product">
@@ -222,20 +264,20 @@
           <?php if ($wp_query2->have_posts() ) : while ($wp_query2->have_posts()) : $wp_query2->the_post(); $slug_name = $post->post_name; ?>
               <article class="specBox"><span id="<?php echo $slug_name; ?>"></span>
                 <img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/>
-                <h3><?php the_title() ; ?></h3>
+                <h3><a href="<?php the_permalink(); ?>" ><?php the_title() ; ?></a></h3>
                 <?php remove_filter ('the_content', 'wpautop'); ?>
                       <div class="specBox_footer" data-mh="specBox_footer">
                         <?php if(get_post_meta($post->ID,'link_rakuten',true) || get_post_meta($post->ID,'link_amazon',true) || get_post_meta($post->ID,'link_paypay',true)): ?>
                         <ul class="ecLink">
                           <li class="ecLink_item ecLink_item__rakuten"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="instagram"></a></li>
                           <?php if(get_post_meta($post->ID,'link_rakuten',true)): ?>
-                          <li class="ecLink_item ecLink_item__rakuten"><a href="<?php echo $cfs->get('link_rakuten'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconRakuten.png" alt="Rakutenでの購入"></a></li>
+                          <li class="ecLink_item ecLink_item__rakuten"><a href="<?php echo $cfs->get('link_rakuten'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/rakuten.png" alt="Rakutenでの購入"></a></li>
                           <?php endif; ?>
                           <?php if(get_post_meta($post->ID,'link_amazon',true)): ?>
-                          <li class="ecLink_item ecLink_item__amazon"><a href="<?php echo $cfs->get('link_amazon'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconAmazon.png" alt="amazonでの購入"></a></li>
+                          <li class="ecLink_item ecLink_item__amazon"><a href="<?php echo $cfs->get('link_amazon'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/amazon.png" alt="amazonでの購入"></a></li>
                           <?php endif; ?>
                           <?php if(get_post_meta($post->ID,'link_paypay',true)): ?>
-                          <li class="ecLink_item ecLink_item__paypay"><a href="<?php echo $cfs->get('link_paypay'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/iconPaypay.png" alt="Paypayでの購入"></a></li>
+                          <li class="ecLink_item ecLink_item__paypay"><a href="<?php echo $cfs->get('link_paypay'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/p.png" alt="Paypayでの購入"></a></li>
                           <?php endif; ?>
                         </ul>
                           <?php endif; ?>
@@ -263,9 +305,14 @@
       <h2 class="ja">⼈気の商品</h2>
       <p class="en">POPULAR ITEMS</p>
     </div>
-    <div class="desc">
+    <div class="desc is_show_md">
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
       テキストが入ります。テキストが入ります。テキストが入ります。 <br>
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+    </div>
+    <div class="desc is_show_xs">
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+      テキストが入ります。テキストが入ります。テキストが入ります。 
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
     </div>
     <div class="list_items_product">
@@ -308,9 +355,14 @@
       <h2 class="ja">初めての方におすすめの商品</h2>
       <p class="en">FOR BEGINNERS</p>
     </div>
-    <div class="desc">
+    <div class="desc is_show_md">
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
       テキストが入ります。テキストが入ります。テキストが入ります。 <br>
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+    </div>
+    <div class="desc is_show_xs">
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+      テキストが入ります。テキストが入ります。テキストが入ります。 
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
     </div>
   </div>
@@ -391,9 +443,14 @@
       <h2 class="ja">おしらせ</h2>
       <p class="en">NEWS</p>
     </div>
-    <div class="desc">
+    <div class="desc is_show_md">
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
       テキストが入ります。テキストが入ります。テキストが入ります。 <br>
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+    </div>
+    <div class="desc is_show_xs">
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+      テキストが入ります。テキストが入ります。テキストが入ります。 
       テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
     </div>
     <div class="list_items_news">
@@ -417,7 +474,7 @@
             <a href="<?php the_permalink(); ?>" class="link_post_item">
               <time><?php the_time('Y.m.j'); ?></time><br>
               <span class="title"><?php the_title(); ?></span>
-              <div class="content">
+              <div class="content is_show_md">
                 <?php echo the_content();?>  
               </div>
             </a>

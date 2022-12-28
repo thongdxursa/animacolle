@@ -8,14 +8,44 @@
 			<a href="#" id="goTopBtn" title="このページの先頭へ"></a>
 			<div class="sns_sp">
 				<div class="gr_1">
-					<a href="https://www.instagram.com/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram"></a>
-					<a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line"></a>
-					<a href="https://twitter.com/animacolle" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Twitter.png" alt="twitter"></a>
-					<a href="https://www.rakuten.co.jp/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/rakuten.png" alt="Rakutenはこちら"></a>
+				<a href="https://www.instagram.com/animacolle/" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/IG_xsl.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram">
+						</picture>
+					</a>
+					<a href="#" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/LINE_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line">
+						</picture>
+					</a>
+					<a href="https://twitter.com/animacolle" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/Twitter_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/Twitter.png" alt="twitter">
+						</picture>
+					</a>
+					<a href="https://www.rakuten.co.jp/animacolle/" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/rakuten_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/rakuten.png" alt="Rakutenはこちら">
+						</picture>
+					</a>
 				</div>
 				<div class="gr_2">
-					<a href="https://www.amazon.co.jp/dp/B07NWNJDWL/ref=psdc_2439831051_t1_B07NWNMPZQ" target="_blank" class="sns_amazon"><img src="<?php echo get_template_directory_uri(); ?>/images/amazon.png" alt="amazon"></a>
-					<a href="https://paypaymall.yahoo.co.jp/store/animacolle/top/" target="_blank" class="sns_paypay"><img src="<?php echo get_template_directory_uri(); ?>/images/yahoo.png" alt="Paypayはこちら"></a>
+				<a href="https://www.amazon.co.jp/dp/B07NWNJDWL/ref=psdc_2439831051_t1_B07NWNMPZQ" target="_blank" class="sns_amazon">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/amazon_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/amazon.png" alt="amazon">
+						</picture>
+					</a>
+					<a href="https://paypaymall.yahoo.co.jp/store/animacolle/top/" target="_blank" class="sns_paypay">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/yahoo_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/yahoo.png" alt="Paypayはこちら">
+						</picture>
+					</a>
 				</div>
 			</div>
 			<div class="footer_1">
@@ -64,12 +94,42 @@
 			<div class="footer_2">
 				<aside>&copy;NKC All Rights Reserved.</aside>
 				<div class="sns">
-					<a href="https://www.instagram.com/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram"></a>
-					<a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line"></a>
-					<a href="https://twitter.com/animacolle" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Twitter.png" alt="twitter"></a>
-					<a href="https://www.rakuten.co.jp/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/rakuten.png" alt="Rakutenはこちら"></a>
-					<a href="https://www.amazon.co.jp/dp/B07NWNJDWL/ref=psdc_2439831051_t1_B07NWNMPZQ" target="_blank" class="sns_amazon"><img src="<?php echo get_template_directory_uri(); ?>/images/amazon.png" alt="amazon"></a>
-					<a href="https://paypaymall.yahoo.co.jp/store/animacolle/top/" target="_blank" class="sns_paypay"><img src="<?php echo get_template_directory_uri(); ?>/images/yahoo.png" alt="Paypayはこちら"></a>
+					<a href="https://www.instagram.com/animacolle/" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/IG_xsl.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram">
+						</picture>
+					</a>
+					<a href="#" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/LINE_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line">
+						</picture>
+					</a>
+					<a href="https://twitter.com/animacolle" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/Twitter_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/Twitter.png" alt="twitter">
+						</picture>
+					</a>
+					<a href="https://www.rakuten.co.jp/animacolle/" target="_blank">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/rakuten_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/rakuten.png" alt="Rakutenはこちら">
+						</picture>
+					</a>
+					<a href="https://www.amazon.co.jp/dp/B07NWNJDWL/ref=psdc_2439831051_t1_B07NWNMPZQ" target="_blank" class="sns_amazon">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/amazon_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/amazon.png" alt="amazon">
+						</picture>
+					</a>
+					<a href="https://paypaymall.yahoo.co.jp/store/animacolle/top/" target="_blank" class="sns_paypay">
+						<picture>
+							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/yahoo_xs.png">
+							<img src="<?php echo get_template_directory_uri(); ?>/images/yahoo.png" alt="Paypayはこちら">
+						</picture>
+					</a>
 				</div>
 			</div>
 			

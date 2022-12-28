@@ -191,7 +191,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav class="header_nav">
       <ul class="list_item_nav">
         <li>
-          <img class="menuIconSubMenu" src="<?php echo get_template_directory_uri(); ?>/images/menuIconSubMenu_2.png" /><a href="javascript:;">キャットステップ</a>
+          <img class="menuIconSubMenu" src="<?php echo get_template_directory_uri(); ?>/images/menuIconSubMenu_2.png" />
+          <a href="javascript:;" >キャットステップ &nbsp; &nbsp; &nbsp;</a>
           <ul>
             <li><a href="<?php echo esc_url(home('/')); ?>product">Catroad+の特徴</a></li>
             <li><a href="<?php echo esc_url(home('/')); ?>product_list">製品一覧</a></li>
@@ -202,7 +203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li>
           <img class="menuIconSubMenu" src="<?php echo get_template_directory_uri(); ?>/images/menuIconSubMenu_2.png"  /><a href="javascript:;">サプリメント</a>
           <ul class="menu_solusana">
-            <li><a href="<?php echo esc_url(home('/')); ?>solusana60/">ペット用サプリメント solusana</a></li>
+            <li><a href="<?php echo esc_url(home('/')); ?>solusana60/">ペット用サプリメント <br>solusana</a></li>
             <li><a href="<?php echo esc_url(home('/')); ?>solusana_sale/">solusana販売ページ</a></li>
           </ul>
         </li>
