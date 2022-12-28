@@ -238,7 +238,7 @@
 .product_story_content .desc .btn_more{
     text-align: center;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .product_story_content .desc .btn_more a{
     width: 200px;
@@ -478,7 +478,7 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
         gap: 25px 30px;
     }
     .tab_content .list_category a{
-        width: calc((100% - 30px) / 2) ;
+        width: calc((100% - 40px) / 2);
         max-width: 292px;
         height: 174px;
         font-size: 30px;
@@ -809,7 +809,7 @@ div.sns a.sns_amazon{
         overflow-wrap: break-word;
     }
     .navigation .list_nav li a{
-        font-size: 26px !important;
+        font-size: 24px !important;
     }
     .navigation .list_nav li .minus{
         display: none;
@@ -1001,10 +1001,13 @@ header{
     }
     .tab_content .list_category{
         gap: 10px;
-        justify-content: space-between;
+        justify-content: start;
     }
     .tab_content .list_category a{
-        font-size: 20px;
+        font-size: 18px;
+        /* width: 100%; */
+        padding: 0 5px;
+        height: 120px;
     }
     .tab_content .list_category a img{
         width: 100%;
@@ -1072,4 +1075,81 @@ header{
     .topCarousel .logo_btn_cat_step{
         max-width: 200px;
     }
+}
+@media only screen and (max-width: 479px)  {
+    .topCarousel .item_content .content_txt h2 {
+        font-size: 24px;
+        padding: 0;
+    }
+    .topCarousel .item_content .content_txt p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .navigation .list_nav li a {
+        font-size: 18px !important;
+    }
+    .navigation .list_nav li {
+        margin-bottom: 20px;
+    }
+    .navigation .list_nav {
+        max-width: 1150px !important;
+    }
+    .header_content {
+        height: 120px;
+    }
+    .shop_logo img {
+        width: 150px !important;
+    }
+    .product_story_content .ps_video iframe {
+        height: 250px;
+    }
+    .product_story_panel {
+        height: 800px;
+    }
+    .product_story_content .desc .btn_more {
+        margin-top: 50px;
+    }
+    .btnMoreBox .btn_more {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .footer_1 .shop_logo img {
+        width: 200px !important;
+    }
+    .footer_1 .shop_logo {
+        margin-bottom: 30px;
+    }
+    .footer_1 .addressbox span {
+        font-size: 14px !important;
+        text-align: center;
+    }
+    footer {
+        min-height: 1450px;
+    }
+    footer address img:first-of-type {
+        width: 150px !important;
+    }
+    footer .navigation {
+        margin-top: 60px;
+    }
+    footer .navigation .tt {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    footer .navigation_2 li a {
+        font-size: 22px !important;
+    }
+    footer .footer_2 {
+        margin-top: 30px;
+    }
+    .tab_panel .tab_content {
+        margin-bottom: 50px;
+    }
+    .product_story_panel, .pick_up_item_panel, 
+    .popular_item_panel, .for_beginner_panel, .news_panel  {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    
+   
 }
