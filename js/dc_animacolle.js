@@ -44,6 +44,9 @@ $(function (){
 			$('body').removeClass('spMenu');
 		}
 	});
+	$('#closemenuBtn').on('click', function() {
+		$('body').removeClass('spMenu');
+	});
 
 	//コンテンツのチェック
 	 $('#header_content').append('<a href="javascript:;" id="menuBtn"><img src="http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/3_line.png" /></a><hr />');

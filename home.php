@@ -1,123 +1,111 @@
 <?php get_header(); ?>
 
 <!-- carousel top -->
-<div id="topCarousel" class="carousel slide topCarousel" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#topCarousel" data-slide-to="1"></li>
-    <!-- <li data-target="#topCarousel" data-slide-to="2"></li> -->
-  </ol>
+<div class="carousel_panel">
+  <div id="topCarousel" class="carousel slide topCarousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+      <!-- <li data-target="#topCarousel" data-slide-to="1"></li> -->
+      <!-- <li data-target="#topCarousel" data-slide-to="2"></li> -->
+    </ol>
 
-  <div class="carousel-inner">
-    <!-- item 1 -->
-    <div class="item active">
-      <div class="item_content">
-        <div class="content_img">
-          <div class="img_1">
-            <picture>
-              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
-            </picture>
-            <div class="logo_btn logo_btn_cat_step">
-              <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
+    <div class="carousel-inner">
+      <!-- item 1 -->
+      <div class="item active">
+        <div class="item_content">
+          <div class="content_img">
+            <div class="img_1">
+              <picture>
+                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
+              </picture>
+              <div class="logo_btn logo_btn_cat_step">
+                <div class="img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
+                </div>
+                <div class="link">
+                  <a href="#" class="link cat_step">キャットステップ</a>
+                </div>
               </div>
-              <div class="link">
-                <a href="#" class="link cat_step">キャットステップ</a>
+            </div>
+            <div class="img_2">
+              <picture>
+                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
+              </picture>
+              <div class="logo_btn logo_btn_supplement">
+                <div class="img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
+                </div>
+                <div class="link">
+                  <a href="#" class=" supplement">サプリメント</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="img_2">
-            <picture>
-              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
-            </picture>
-            <div class="logo_btn logo_btn_supplement">
-              <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
-              </div>
-              <div class="link">
-                <a href="#" class=" supplement">サプリメント</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content_txt is_show_md">
-          <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
-          <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
-             その多くは⾷事と運動に関係する事が多くあります。<br>
-             愛猫・愛犬の健康をみまもり、長いライフスタイルを幸せなものにしませんか。
-          </p>
-        </div>
-        <div class="content_txt is_show_xs">
-          <h2>愛猫・愛⽝を<br>「外と内」からみまもる</h2>
-          <p>飼い主は<br>「愛猫・愛⽝にできるだけのことをしてあげたい」と<br>
-          考えるものですが、その多くは⾷事と運動に<br>
-          関係する事が多くあります。<br>
-             愛猫・愛犬の健康をみまもり、長いライフスタイルを<br>幸せなものにしませんか。
-          </p>
         </div>
       </div>
-    </div>
-   <!-- item 2 -->
-   <div class="item">
-      <div class="item_content">
-        <div class="content_img">
-          <div class="img_1">
-            <picture>
-              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
-            </picture>
-            <div class="logo_btn logo_btn_cat_step">
-              <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
+    <!-- item 2 -->
+    <!-- <div class="item">
+        <div class="item_content">
+          <div class="content_img">
+            <div class="img_1">
+              <picture>
+                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
+              </picture>
+              <div class="logo_btn logo_btn_cat_step">
+                <div class="img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
+                </div>
+                <div class="link">
+                  <a href="#" class="link cat_step">キャットステップ</a>
+                </div>
               </div>
-              <div class="link">
-                <a href="#" class="link cat_step">キャットステップ</a>
+            </div>
+            <div class="img_2">
+              <picture>
+                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
+              </picture>
+              <div class="logo_btn logo_btn_supplement">
+                <div class="img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
+                </div>
+                <div class="link">
+                  <a href="#" class=" supplement">サプリメント</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="img_2">
-            <picture>
-              <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
-            </picture>
-            <div class="logo_btn logo_btn_supplement">
-              <div class="img">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
-              </div>
-              <div class="link">
-                <a href="#" class=" supplement">サプリメント</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content_txt is_show_md">
-          <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
-          <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
-             その多くは⾷事と運動に関係する事が多くあります。<br>
-             愛猫・愛犬の健康をみまもり、長いライフスタイルを幸せなものにしませんか。
-          </p>
-        </div>
-        <div class="content_txt is_show_xs">
-          <h2>愛猫・愛⽝を<br>「外と内」からみまもる</h2>
-          <p>飼い主は<br>「愛猫・愛⽝にできるだけのことをしてあげたい」と<br>
-          考えるものですが、その多くは⾷事と運動に<br>
-          関係する事が多くあります。<br>
-             愛猫・愛犬の健康をみまもり、長いライフスタイルを<br>幸せなものにしませんか。
-          </p>
         </div>
       </div>
-    </div>
+    </div> -->
+
+    <a class="left carousel-control" href="#topCarousel" data-slide="prev">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/left.png">
+    </a>
+    <a class="right carousel-control" href="#topCarousel" data-slide="next">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/right.png">
+    </a>
   </div>
-
-  <a class="left carousel-control" href="#topCarousel" data-slide="prev">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/left.png">
-  </a>
-  <a class="right carousel-control" href="#topCarousel" data-slide="next">
-  <img src="<?php echo get_template_directory_uri(); ?>/images/right.png">
-  </a>
+  <div class="content_txt is_show_md">
+    <h2>愛猫・愛⽝を「外と内」からみまもる</h2>
+    <p>飼い主は「愛猫・愛⽝にできるだけのことをしてあげたい」と考えるものですが、<br>
+        その多くは⾷事と運動に関係する事が多くあります。<br>
+        愛猫・愛犬の健康をみまもり、長いライフスタイルを幸せなものにしませんか。
+    </p>
+  </div>
+  <div class="content_txt is_show_xs">
+    <h2>愛猫・愛⽝を<br>「外と内」からみまもる</h2>
+    <p>飼い主は<br>「愛猫・愛⽝にできるだけのことをしてあげたい」と<br>
+    考えるものですが、その多くは⾷事と運動に<br>
+    関係する事が多くあります。<br>
+        愛猫・愛犬の健康をみまもり、長いライフスタイルを<br>幸せなものにしませんか。
+    </p>
+  </div>
 </div>
+
 <!-- end carousel top -->
 <!-- tab panel -->
 

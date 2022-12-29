@@ -188,7 +188,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="<?php echo get_template_directory_uri(); ?>/images/logo_header.png" alt="animacolle" />
       </a>
     </div>
-    <nav class="header_nav">
+    <nav class="header_nav is_show_md">
       <ul class="list_item_nav">
         <li>
           <img class="menuIconSubMenu" src="<?php echo get_template_directory_uri(); ?>/images/menuIconSubMenu_2.png" />
@@ -211,6 +211,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </ul>
     </nav>
   </div>
+  <nav class="header_nav header_nav_xs is_show_xs">
+    <ul class="list_item_nav list_item_nav_xs">
+      <div class="menu_logo">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/logo_menu_right.png" alt="animacolle" class="lg_menu"/>
+        <a href="javascript:;" id="closemenuBtn" class="closemenuBtn"><img src="<?php echo get_template_directory_uri(); ?>/images/topPage/x.png"  /></a>
+      </div>
+      <div class="search_box">
+        <form>
+          <input type="text" class="form-control">
+          <a href="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/search_icon.png" class="search_icon" style="width: 100%"/>
+          </a>
+        </form>
+      </div>
+      <div class="list_menu_link">
+        <p class="tt">キャットステップ</p>
+        <p><a href="<?php echo esc_url(home('/')); ?>product">Catroad+の特徴</a></p>
+        <p><a href="<?php echo esc_url(home('/')); ?>product_list">製品⼀覧</a></p>
+        <p><a href="<?php echo esc_url(home('/')); ?>product/setup">取付⽅法</a></p>
+        <p><a href="<?php echo esc_url(home('/')); ?>product_case">事例紹介</a></p>
+        <p><a href="<?php echo esc_url(home('/')); ?>voice/">モニター様の声</a></p>
+
+        <p class="tt" style="padding-top: 14.667vw">サプリメント</p>
+        <p><a href="#">サプリメントリンク</a></p>
+        <p><a href="#">サプリメントリンク</a></p>
+        <p><a href="#">サプリメントリンク</a></p>
+        <p><a href="#">サプリメントリンク</a></p>
+        <p><a href="#">サプリメントリンク</a></p>
+      </div>
+    </ul>
+  </nav>
   <div class="header_link_2">
     <a href="#">キャットステップ</a>
     <a href="#">サプリメント</a>
