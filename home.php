@@ -5,7 +5,7 @@
   <div id="topCarousel" class="carousel slide topCarousel" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
-      <!-- <li data-target="#topCarousel" data-slide-to="1"></li> -->
+      <li data-target="#topCarousel" data-slide-to="1"></li>
       <!-- <li data-target="#topCarousel" data-slide-to="2"></li> -->
     </ol>
 
@@ -46,7 +46,7 @@
         </div>
       </div>
     <!-- item 2 -->
-    <!-- <div class="item">
+    <div class="item">
         <div class="item_content">
           <div class="content_img">
             <div class="img_1">
@@ -80,7 +80,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <a class="left carousel-control" href="#topCarousel" data-slide="prev">
       <img src="<?php echo get_template_directory_uri(); ?>/images/left.png">
@@ -251,8 +251,8 @@
           ?>
           <?php if ($wp_query2->have_posts() ) : while ($wp_query2->have_posts()) : $wp_query2->the_post(); $slug_name = $post->post_name; ?>
               <article class="specBox"><span id="<?php echo $slug_name; ?>"></span>
-                <img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/>
-                <h3><a href="<?php the_permalink(); ?>" ><?php the_title() ; ?></a></h3>
+                <a href="<?php the_permalink(); ?>" ><img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/></a>
+                <h3 class="title" style="text-align:center !important"><a href="<?php the_permalink(); ?>" ><?php the_title() ; ?></a></h3>
                 <?php remove_filter ('the_content', 'wpautop'); ?>
                       <div class="specBox_footer" data-mh="specBox_footer">
                         <?php if(get_post_meta($post->ID,'link_rakuten',true) || get_post_meta($post->ID,'link_amazon',true) || get_post_meta($post->ID,'link_paypay',true)): ?>
@@ -317,8 +317,8 @@
           ?>
           <?php if ($wp_query3->have_posts() ) : while ($wp_query3->have_posts()) : $wp_query3->the_post(); $slug_name = $post->post_name; ?>
           <article class="specBox"><span id="<?php echo $slug_name; ?>"></span>
-            <img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/>
-            <h3 class="title"><?php the_title() ; ?></h3>
+            <a href="<?php the_permalink(); ?>" ><img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/></a>
+            <h3 class="title"><a href="<?php the_permalink(); ?>" ><?php the_title() ; ?></a></h3>
             <div class="product_price"><?php echo $cfs->get('product_price'); ?>円(税込)</div>
           </article>
           <?php
@@ -371,8 +371,8 @@
           ?>
           <?php if ($wp_query2->have_posts() ) : while ($wp_query2->have_posts()) : $wp_query2->the_post(); $slug_name = $post->post_name; ?>
           <article class="specBox"><span id="<?php echo $slug_name; ?>"></span>
-            <img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/>
-            <h3 class="title"><?php the_title() ; ?></h3>
+            <a href="<?php the_permalink(); ?>" ><img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/></a>
+            <h3 class="title"><a href="<?php the_permalink(); ?>" ><?php the_title() ; ?></a></h3>
             <div class="product_price"><?php echo $cfs->get('product_price'); ?>円(税込)</div>
           </article>
           <?php
@@ -405,8 +405,8 @@
                   <?php the_post_thumbnail('popular_thumb'); ?>
               </figure>
             <?php endif; ?>
-            <img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/>
-            <h3 class="title"><?php the_title() ; ?></h3>
+            <a href="<?php the_permalink(); ?>" ><img src="<?php echo $cfs->get('image_product'); ?>" width="340" alt="<?php the_title(); ?>"/></a>
+            <h3 class="title"><a href="<?php the_permalink(); ?>" ><?php the_title() ; ?></a></h3>
             <div class="product_price"><?php echo $cfs->get('product_price'); ?>円(税込)</div>
           </article>
           <?php
@@ -454,11 +454,13 @@
           ?>
           <?php if ($wp_query3->have_posts() ) : while ($wp_query3->have_posts()) : $wp_query3->the_post(); $slug_name = $post->post_name; ?>
           <article class="specBox">
-            <?php if (has_post_thumbnail()) { ?>
-              <?php the_post_thumbnail(); ?>
-            <?php }else{ ?>
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img_default.png" alt="<?php the_title(); ?>"/>
-            <?php } ?>
+            <a href="<?php the_permalink(); ?>" >
+              <?php if (has_post_thumbnail()) { ?>
+                <?php the_post_thumbnail(); ?>
+              <?php }else{ ?>
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img_default.png" alt="<?php the_title(); ?>"/>
+              <?php } ?>
+            </a>
             <a href="<?php the_permalink(); ?>" class="link_post_item">
               <time><?php the_time('Y.m.j'); ?></time><br>
               <span class="title"><?php the_title(); ?></span>

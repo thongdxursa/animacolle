@@ -187,7 +187,7 @@ header{
     font-weight: 500;
     color: #32231b;
     letter-spacing: 0.050em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans JP', Times, serif;
     text-align: center;
 }
 .tab_content .list_category a img{
@@ -466,7 +466,12 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
 .news_content .list_items_news .link_post_item .title{
     margin-bottom: 40px;
 }
-.news_content .list_items_news .specBox:hover .link_post_item, .news_content .list_items_news .specBox:hover .content, .news_content .list_items_news .specBox:hover a, .news_content .list_items_news .specBox:hover time{
+.news_content .list_items_news .specBox:hover .link_post_item, 
+.news_content .list_items_news .specBox:hover .content, 
+.news_content .list_items_news .specBox:hover a, 
+.list_items_product .specBox:hover .product_price, 
+.list_items_product .specBox:hover .title a, 
+.news_content .list_items_news .specBox:hover time{
     color: #cb6619 !important;
     text-decoration: none;
 }
@@ -1089,7 +1094,7 @@ header{
 @media only screen and (max-width: 749px)  {
   
     .header_content #menuBtn{
-        width: 35px;
+        width: 32px;
         right: 25px;
     }
     .header_link_2 a{
@@ -1249,5 +1254,14 @@ header{
     .search_box form{
         height: 50px;
         margin: 0px 5.3%;
+    }
+    .news_content .list_items_news .link_post_item{
+        font-size: 13px;
+    }
+    .news_content .list_items_news .flexBox{
+        gap: 10px;
+    }
+    .news_content .list_items_news .flexBox article{
+        width: calc((100% - 20px) / 3);
     }
 }
