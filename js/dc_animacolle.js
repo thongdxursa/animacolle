@@ -49,7 +49,8 @@ $(function (){
 	});
 
 	//コンテンツのチェック
-	 $('#header_content').append('<a href="javascript:;" id="menuBtn"><img src="./../images/3_line.png" /></a><hr />');
+	var rootUrl = '<% =(Request.Url.GetLeftPart(UriPartial.Authority) + Request.ApplicationPath) %>';
+	$('#header_content').append('<a href="javascript:;" id="menuBtn"><img src="'+imagesPath+'/3_line.png" /></a><hr />');
 	$('footer').append('<hr />');
 	checkContents();
 	function checkContents() {
