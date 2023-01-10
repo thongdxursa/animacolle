@@ -49,7 +49,7 @@ $(function (){
 	});
 
 	//コンテンツのチェック
-	 $('#header_content').append('<a href="javascript:;" id="menuBtn"><img src="http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/3_line.png" /></a><hr />');
+	 $('#header_content').append('<a href="javascript:;" id="menuBtn"><img src="./../images/3_line.png" /></a><hr />');
 	$('footer').append('<hr />');
 	checkContents();
 	function checkContents() {

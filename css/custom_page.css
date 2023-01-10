@@ -8,10 +8,10 @@ header{
     z-index: 16 !important;
 }
 #fixed_bnr .bnr_review a {
-    background: url("http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/floating_bnr.png") left 0 no-repeat !important;
+    background: url("./../images/floating_bnr.png") left 0 no-repeat !important;
 }
 #fixed_bnr .bnr_review a:hover {
-    background: url("http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/floating_bnr_hover.png") left 0 no-repeat !important;
+    background: url("./../images/floating_bnr_hover.png") left 0 no-repeat !important;
 }
 .topCarousel{
     max-width: 1400px;
@@ -51,7 +51,7 @@ header{
     font-weight: 400;
     color: #fff;
     margin-top: 20px;
-    background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/arrow_right.png') right center no-repeat;
+    background:  url('./../images/arrow_right.png') right center no-repeat;
 }
 .logo_btn  .img{
     text-align: center;
@@ -198,7 +198,7 @@ header{
 }
 /*css product story panel*/
 .product_story_panel{
-    background-image: url('http://13.230.65.74/animacolle//wp-content/themes/animacolle_theme/images/topPage/product_story_bg.png');
+    background-image: url('./../images/topPage/product_story_bg.png');
     background-position-x: center;
     background-repeat: no-repeat;
     height: 1353px;
@@ -273,7 +273,7 @@ header{
 /*css pick up items*/
 .pick_up_item_panel{
     padding: 130px 0px 103px;
-    background-image: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/pickup_bg.png');
+    background-image: url('./../images/topPage/pickup_bg.png');
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -328,7 +328,7 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
 /*popular item css*/
 .popular_item_panel{
     padding: 130px 0px;
-    background-image: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/popular_bg.png');
+    background-image: url('./../images/topPage/popular_bg.png');
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -395,7 +395,7 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
 
 .for_beginner_panel{
     padding: 130px 0px;
-    background-image: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/beginner_bg.png');
+    background-image: url('./../images/topPage/beginner_bg.png');
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -554,7 +554,7 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
     .product_story_panel{
         height: 1374px;
         padding-top: 15.333vw;
-        background: url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/topPage/product_story_bg_xs.png')  center / 100% 100% no-repeat;;
+        background: url('./../images/topPage/product_story_bg_xs.png')  center / 100% 100% no-repeat;;
     }
     .product_story_content{
         padding: 0px 5.3%;
@@ -730,7 +730,7 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
 
 /*css footer*/
 footer{
-    background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/footer_bg.png')  center no-repeat;
+    background:  url('./../images/footer_bg.png')  center no-repeat;
     min-height: 992px;
     padding: 0px !important;
 }
@@ -819,7 +819,7 @@ div.sns a.sns_amazon{
 }
 @media only screen and (max-width: 991px)  {
     footer{
-        background:  url('http://13.230.65.74/animacolle/wp-content/themes/animacolle_theme/images/footer_bg_sp.png')  center / 100% 100% no-repeat;
+        background:  url('./../images/footer_bg_sp.png')  center / 100% 100% no-repeat;
         min-height: 1960px;
     }
     .footer_1{
