@@ -75,6 +75,9 @@ header{
     align-items: center;
     width: 5% !important;
 }
+.carousel_panel{
+    margin-top: 155px;
+}
 .carousel_panel .content_txt{
     position: absolute;
     top: 60px;
@@ -996,7 +999,9 @@ div.sns a.sns_amazon{
     .pick_up_item_panel, .popular_item_panel, .for_beginner_panel, .news_panel {
         padding: 18vw 0px 13.33vw;
     }
-   
+    .carousel_panel{
+        margin-top: calc(154px + 12.667vw) !important; 
+    }
 }
 
 /*css header*/
@@ -1005,6 +1010,10 @@ header hr{
 }
 header{
     height: auto !important;
+    max-height: 155px !important;
+    position: fixed !important;
+    top: 0px;
+    background: #f3f1eb;
 }
 .header_content{
     display: flex;
@@ -1090,6 +1099,9 @@ header{
         font-family: 'Noto Sans JP', sans-serif;
         letter-spacing: 0.05em;
     }
+    .carousel_panel{
+        margin-top: 250px;
+    }
 }
 @media only screen and (max-width: 749px)  {
   
@@ -1167,6 +1179,7 @@ header{
     .topCarousel .logo_btn_cat_step{
         max-width: 185px;
     }
+    
 }
 @media only screen and (max-width: 479px)  {
     .topCarousel  .carousel_panel h2 {
@@ -1263,5 +1276,8 @@ header{
     }
     .news_content .list_items_news .flexBox article{
         width: calc((100% - 20px) / 3);
+    }
+    .carousel_panel{
+        margin-top: calc(110px + 12.667vw) !important; 
     }
 }
