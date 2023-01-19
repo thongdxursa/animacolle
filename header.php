@@ -180,7 +180,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="header_content" id="header_content">
     <div class="sns">
       <a href="https://www.instagram.com/animacolle/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram" /></a>
-      <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line" /></a>
+      <a href="https://lin.ee/SV4jyItg" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line" /></a>
       <a href="https://twitter.com/animacolle" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Twitter.png" alt="twitter" /></a>
     </div>
     <div class="header_logo">
@@ -247,4 +247,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a href="#">サプリメント</a>
   </div>
 </header>
+<div class="body_space"></div>
 

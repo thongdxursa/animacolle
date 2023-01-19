@@ -15,10 +15,12 @@
         <div class="item_content">
           <div class="content_img">
             <div class="img_1">
-              <picture>
-                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
-              </picture>
+              <a href="#">
+                <picture>
+                  <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
+                </picture>
+              </a>
               <div class="logo_btn logo_btn_cat_step">
                 <div class="img">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
@@ -29,10 +31,12 @@
               </div>
             </div>
             <div class="img_2">
-              <picture>
-                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
-              </picture>
+              <a href="#">
+                <picture>
+                  <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
+                </picture>
+              </a>
               <div class="logo_btn logo_btn_supplement">
                 <div class="img">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
@@ -50,10 +54,12 @@
         <div class="item_content">
           <div class="content_img">
             <div class="img_1">
-              <picture>
-                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
-              </picture>
+              <a href="#">
+                <picture>
+                  <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/cat_step_xs.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg.png" width="100%" />
+                </picture>
+              </a>
               <div class="logo_btn logo_btn_cat_step">
                 <div class="img">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/ベクトルスマートオブジェクト1.png" width="100%"/>
@@ -64,10 +70,12 @@
               </div>
             </div>
             <div class="img_2">
-              <picture>
-                <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
-              </picture>
+              <a href="#">
+                <picture>
+                  <source media="(max-width:1080px)" srcset="<?php echo get_template_directory_uri(); ?>/images/topPage/supplement_xs.png">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/topPage/bg1.png" width="100%" />
+                </picture>
+              </a>
               <div class="logo_btn logo_btn_supplement">
                 <div class="img">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" width="100%"  />
@@ -174,7 +182,7 @@
       <div id="menu2" class="tab-pane fade tab_content_2">
         <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"/>
         <div class="tt">
-          <h2>キャットステップカテゴリー</h2>
+          <h2>ソラサナカテゴリー</h2>
           <p>CATEGORY</p>
         </div>
         <div class="list_category">
@@ -204,14 +212,14 @@
     </div>
     <div class="desc">
       <p class="txt is_show_md">
-        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>
-        テキストが入ります。テキストが入ります。テキストが入ります。<br>
-        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+        ソラサナは日々の診療を通じペットとそのご家族と向き合う中で、”こんなサプリメントがあったら良いのに”という強い思いからから誕生しました。<br>
+        オメガ3脂肪酸として高品質なDHAを豊富に含むAlgatrium、皮膚の健康維持にアスタキサンチン、腸内環境に配慮したオリゴ乳酸を配合。<br>
+        大切な家族であるペット達が様々なライフステージや状況でも安心してご利用いただけ、健康維持をサポートするソラサナを是非お試しください。
       </p>
       <p class="txt is_show_xs" >
-        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-        テキストが入ります。テキストが入ります。テキストが入ります。
-        テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+        ソラサナは日々の診療を通じペットとそのご家族と向き合う中で、”こんなサプリメントがあったら良いのに”という強い思いからから誕生しました。
+        オメガ3脂肪酸として高品質なDHAを豊富に含むAlgatrium、皮膚の健康維持にアスタキサンチン、腸内環境に配慮したオリゴ乳酸を配合。
+        大切な家族であるペット達が様々なライフステージや状況でも安心してご利用いただけ、健康維持をサポートするソラサナを是非お試しください。
       </p>
       <div class="btn_more">
         <a href="#">MORE</a>
@@ -257,7 +265,7 @@
                       <div class="specBox_footer" data-mh="specBox_footer">
                         <?php if(get_post_meta($post->ID,'link_rakuten',true) || get_post_meta($post->ID,'link_amazon',true) || get_post_meta($post->ID,'link_paypay',true)): ?>
                         <ul class="ecLink">
-                          <li class="ecLink_item ecLink_item__rakuten"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="instagram"></a></li>
+                          <!-- <li class="ecLink_item ecLink_item__rakuten"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="instagram"></a></li> -->
                           <?php if(get_post_meta($post->ID,'link_rakuten',true)): ?>
                           <li class="ecLink_item ecLink_item__rakuten"><a href="<?php echo $cfs->get('link_rakuten'); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/rakuten.png" alt="Rakutenでの購入"></a></li>
                           <?php endif; ?>

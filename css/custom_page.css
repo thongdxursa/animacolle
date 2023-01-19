@@ -75,8 +75,10 @@ header{
     align-items: center;
     width: 5% !important;
 }
-.carousel_panel{
+.body_space{
     margin-top: 155px;
+    width: 100%;
+    display: block;
 }
 .carousel_panel .content_txt{
     position: absolute;
@@ -332,6 +334,7 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .popular_item_content{
     max-width: 1080px;
@@ -399,6 +402,7 @@ section.imageText2 article.specBox .ecLink_item.ecLink_item__amazon{
     width: 100%;
     background-position-x: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .for_beginner_content{
     max-width: 1080px;
@@ -999,7 +1003,7 @@ div.sns a.sns_amazon{
     .pick_up_item_panel, .popular_item_panel, .for_beginner_panel, .news_panel {
         padding: 18vw 0px 13.33vw;
     }
-    .carousel_panel{
+    .body_space{
         margin-top: calc(154px + 12.667vw) !important; 
     }
 }
@@ -1013,7 +1017,7 @@ header{
     max-height: 155px !important;
     position: fixed !important;
     top: 0px;
-    background: #f3f1eb;
+    background: #fff;
 }
 .header_content{
     display: flex;
@@ -1099,7 +1103,7 @@ header{
         font-family: 'Noto Sans JP', sans-serif;
         letter-spacing: 0.05em;
     }
-    .carousel_panel{
+    .body_space{
         margin-top: 250px;
     }
 }
@@ -1277,7 +1281,7 @@ header{
     .news_content .list_items_news .flexBox article{
         width: calc((100% - 20px) / 3);
     }
-    .carousel_panel{
+    .body_space{
         margin-top: calc(110px + 12.667vw) !important; 
     }
 }

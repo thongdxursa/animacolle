@@ -14,7 +14,7 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram">
 						</picture>
 					</a>
-					<a href="#" target="_blank">
+					<a href="https://lin.ee/SV4jyItg" target="_blank">
 						<picture>
 							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/LINE_xs.png">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line">
@@ -64,6 +64,7 @@
 						</picture>
 					</a>
 					<span>〒530-8566 大阪府大阪市北区天満橋3-3-5</span>
+					<span>TEL 0120-540-636</span>
 				</address>
 				<div class="navigation">
 					<p class="tt">製品情報</p>
@@ -100,7 +101,7 @@
 							<img src="<?php echo get_template_directory_uri(); ?>/images/icon_insta.png" alt="Instragram">
 						</picture>
 					</a>
-					<a href="#" target="_blank">
+					<a href="https://lin.ee/SV4jyItg" target="_blank">
 						<picture>
 							<source media="(max-width:750px)" srcset="<?php echo get_template_directory_uri(); ?>/images/LINE_xs.png">
 							<img src="<?php echo get_template_directory_uri(); ?>/images/LINE.png" alt="Line">
